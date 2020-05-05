@@ -8,3 +8,7 @@
 #### lab2 - suffix trees:
  - trie (with *up_link_down* procedure),
  - suffix tree (McCreight's algorithm);
+ #### lab3 - Huffman coding:
+ - static Huffman coding,
+ - adaptive Huffman coding (Vitter algorithm);
+ #### lab4 - edit distance

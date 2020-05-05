@@ -1,0 +1,2245 @@
+------------ 3. -----------------
+kloc
+los
+edit distance: 2
+1. *k*los <----- inserted k on idx 0
+2. klo*c* <----- replaced s with c on idx 3
+
+Lodz
+��d�
+edit distance: 3
+1. *L*�d� <----- replaced � with L on idx 0
+2. L*o*d� <----- replaced � with o on idx 1
+3. Lod*z* <----- replaced � with z on idx 3
+
+quintessence
+kwintesencja
+edit distance: 5
+1. *q*wintesencja <----- replaced k with q on idx 0
+2. q*u*intesencja <----- replaced w with u on idx 1
+3. quintes*s*encja <----- inserted s on idx 7
+4. quintessenc*e*a <----- replaced j with e on idx 11
+5. quintessence* <----- deleted a on idx 12
+
+ATGAGGCTCTGGCCCCTG
+ATGAATCTTACCGCCTCG
+edit distance: 7
+1. ATGA*G*TCTTACCGCCTCG <----- replaced A with G on idx 4
+2. ATGAG*G*CTTACCGCCTCG <----- replaced T with G on idx 5
+3. ATGAGGCT*C*TACCGCCTCG <----- inserted C on idx 8
+4. ATGAGGCTCT*G*CCGCCTCG <----- replaced A with G on idx 10
+5. ATGAGGCTCTG*G*CCGCCTCG <----- inserted G on idx 11
+6. ATGAGGCTCTGGCC*CCTCG <----- deleted G on idx 14
+7. ATGAGGCTCTGGCCCCT*G <----- deleted C on idx 17
+
+---------------- 7. --------------
+lengths: 25884 25802
+25024
+
+------------ 8. ----------------
+>11   * PARYS — młody Weroneńczyk szlachetnego rodu, krewny księcia
+<11   * PARYS — Weroneńczyk szlachetnego rodu, krewny księcia
+>14   * ROMEO — syn Montekiego
+>15   * MERKUCJO — krewny księcia
+<14 * ROMEO — syn Montekiego
+<15   MERKUCJO — krewny księcia
+>19   * JAN — brat z tegoż zgromadzenia
+<19 * JAN — brat z tegoż zgromadzenia
+>32   * Obywatele weroneńscy, różne osoby płci obojej, liczący się do przyjaciół obu domów, maski, straż wojskowa i inne osoby.
+<32 * Obywatele weroneńscy, różne osoby płci obojej, się do przyjaciół obu domów, maski, straż wojskowa i inne osoby.
+>37 Rzecz odbywa się przez większą część sztuki Weronie, przez część piątego aktu w Mantui.
+<37 Rzecz odbywa się przez większą część sztuki w Weronie, przez część piątego aktu w Mantui.
+>47 nowej zbrodni pchają dawne,
+<47 Do nowej zbrodni pchają złości dawne,
+>51 Pod najstraszliwszą z gwiazd, kochanków dwoje;
+<51 Pod najstraszliwszą z gwiazd, kochanków
+>55 Tej miłości przebieg zbyt bolesny
+<55 Tej ich miłości przebieg zbyt bolesny
+>61 Jest nim co złego, my usuniem błędy…
+<61 w nim co złego, my usuniem błędy…
+>87 Ale będziemy darli koty, jak z zadrą.
+<87 Ale będziemy darli koty, jak z nami zadrą.
+>112 Rozruchać się tyle znaczy co ruszyć się z miejsca; być walecznym to stać nieporuszenie: pojmuję więc, że skutkiem rozruchania się twego będzie - drapnięcie.
+<112 Rozruchać się tyle znaczy co ruszyć się z miejsca; być to stać nieporuszenie: pojmuję więc, że skutkiem rozruchania się twego będzie - drapnięcie.
+>117 Te psy z domu Montekich rozruchać mię mogą tylko do stania na miejscu. Będę jak mur dla każdego mężczyzny i każdej kobiety z tego domu.
+<117 Te psy z domu Montekich rozruchać mię mogą tylko do stania na miejscu. Będę jak mur dla każdego mężczyzny i każdej kobiety z tego
+>122 To pokazuje twoją słabą stronę; mur dla nikogo niestraszny i tylko słabi go się trzymają.
+<122 To właśnie pokazuje twoją słabą stronę; mur dla nikogo niestraszny tylko słabi go się trzymają.
+>127 Prawda, dlatego to kobiety, jako najsłabsze, tulą się zawsze do muru. Ja też odtrącę od ludzi Montekich, a kobiety Montekich przyprę do muru.
+<127 Prawda, dlatego to kobiety, jako najsłabsze, tulą się zawsze muru. Ja też odtrącę od muru ludzi Montekich, a kobiety Montekich przyprę do muru.
+>132 Spór jest tylko między naszymi panami i między nami, ich ludźmi.
+<132 Spór jest tylko między naszymi i między nami, ich ludźmi.
+>147 Nie inaczej: wtłoczę miecz w każdą po kolei. że się do lwów liczę.
+<147 Nie inaczej: wtłoczę miecz w każdą po kolei. Wiadomo, że się do lwów liczę.
+>152 Tym lepiej, że się liczysz do zwierząt; bo się liczył do ryb, to byłbyś pewnie sztokfiszem. Weź no się za instrument, bo oto nadchodzi dwóch domowników Montekiego.
+<152 Tym lepiej, że się liczysz do zwierząt; bo gdybyś się liczył do ryb, to byłbyś pewnie sztokfiszem. Weź no się za instrument, bo oto nadchodzi dwóch domowników Montekiego.
+>189 Nie jak chcą, ale jak śmią. Ja im gębę wykrzywię; hańba im, jeśli to ścierpią.
+<189 Nie jak chcą, ale jak śmią. Ja gębę wykrzywię; hańba im, jeśli to ścierpią.
+>211 Będziemy–ż mieli prawo za sobą, jak powiem: tak jest?
+<211 Będziemy–ż mieli prawo za sobą, powiem: tak jest?
+>221 Nie, mości panie; nie skrzywiłem się na was, tylko skrzywiłem się tak sobie.
+<221 Nie, mości panie; nie się na was, tylko skrzywiłem się tak sobie.
+>226 / do /
+<226 / do Abrahama /
+>248 Niech i będzie.
+<248 Niech i tak
+>257 Powiedz: lepszy. Oto nadchodzi jeden z krewnych mego pana.
+<257 Powiedz: lepszy. Oto nadchodzi jeden z mego pana.
+>272 Dobądźcie mieczów, jeśli macie serca. Grzegorzu, o swoim pchnięciu.
+<272 Dobądźcie mieczów, jeśli macie serca. Grzegorzu, pamiętaj o swoim pchnięciu.
+>286 Cóż to? krzyżujesz oręż parobkami?
+<286 Cóż to? krzyżujesz oręż z
+>293 Albo wraz ze mną rozdziel nim tych
+<293 Albo wraz mną rozdziel nim tych ludzi.
+>303 / Walczą. Nadchodzi kilku przyjaciół obu partii i mieszają się do zwady; wkrótce wchodzą mieszczanie z pałkami. /
+<303 / Walczą. Nadchodzi kilku przyjaciół obu partii i mieszają się do zwady; wkrótce potem wchodzą mieszczanie z pałkami. /
+>309 Precz z Montekimi, precz Kapuletami!
+<309 Precz z Montekimi, precz z Kapuletami!
+>330 / Wchodzą Monteki i Pani Monteki. /
+<330 / Wchodzą Monteki i Pani /
+>333 MONTEKI
+>335 Ha! nędzny Kapulecie!
+<335 nędzny Kapulecie!
+<336 
+>344 puszczę cię na krok, gdy wróg przed tobą.
+<344 Nie puszczę cię na krok, gdy wróg przed tobą.
+>354 Co wściekłych swoich gniewów żar gasicie
+>355 W własnych żył swoich źródle
+<354 Co wściekłych swoich żar gasicie
+<355 W własnych żył swoich źródle purpurowym;
+>361 Przez was, Monteki oraz Kapulecie,
+<361 was, Monteki oraz Kapulecie,
+>366 w stare dłonie stare ująć miecze,
+<366 I w stare dłonie stare ująć miecze,
+>377 karą śmierci, aby się rozeszli.
+<377 Pod karą śmierci, aby się rozeszli.
+>384 Kto tę nową zwadę? Mów, synowcze,
+<384 Kto wszczął tę nową zwadę? Mów,
+>394 I harde zionąc mi w uszy wyzwanie,
+>395 Jął się wywijać nim i siec powietrze,
+<394 I harde mi uszy wyzwanie,
+<395 Jął się wywijać nim i powietrze,
+>399 Większy tłum ludzi; z obu stron walczono,
+<399 Większy ludzi; z obu stron walczono,
+>406 Jakże cieszę, że nie był w tym starciu.
+<406 Jakże się cieszę, że nie był tym starciu.
+>415 Ku od naszego miasta.
+>416 Tam, już tak rano, syn wasz się
+>417 Ledwiem go ujrzał, pobiegłem ku niemu;
+>418 on, spostrzegłszy mię, skrył się natychmiast
+<415 Ku południowi od naszego miasta.
+<416 Tam, już tak rano, syn wasz się przechadzał.
+<417 Ledwiem go ujrzał, pobiegłem ku
+<418 Lecz on, spostrzegłszy mię, skrył się natychmiast
+>421 Mierząc własnym (serce nasze bowiem
+<421 Mierząc mym własnym (serce nasze bowiem
+>423 Nie przeszkadzałem mu w jego dumaniach
+>424 I w inną stronę się udałem, chętnie
+>425 Stroniąc od tego, co rad mnie unikał.
+<423 Nie przeszkadzałem mu jego dumaniach
+<424 I inną stronę się udałem, chętnie
+<425 Stroniąc od co rad mnie unikał.
+>430 Nieraz o świcie już go tam widziano
+<430 Nieraz świcie już go tam widziano
+>437 Co tchu zamykał się w swoim pokoju;
+<437 Co tchu się w swoim pokoju;
+>439 I sobie ciemnicę utwarzał.
+<439 I sztuczną sobie ciemnicę utwarzał.
+>441 się na to lekarstwo nie znajdzie.
+<441 Jeśli się na to lekarstwo nie znajdzie.
+>446 Szanowny stryju, znasz–że tego?
+<446 Szanowny stryju, znasz–że powód tego?
+>467 I pełność rozwinął przed słońcem.
+<467 I pełność swoją rozwinął przed słońcem.
+>469 Nie zbrakłoby nam środka.
+<469 Nie zbrakłoby nam zaradczego środka.
+>471 / Romeo ukazuje w głębi. /
+<471 / Romeo ukazuje się w głębi. /
+>477 Wyrwę mu z piersi cierpienia tajone.
+<477 Wyrwę mu piersi cierpienia tajone.
+>480 MONTEKI
+<481 
+>490 Dzień dobry, bracie.
+<490 Dzień dobry,
+>500 Dziewiąta biła
+<500 Dziewiąta biła dopiero.
+>506 Wloką się chwile. Moi–ż to rodzice
+<506 Wloką się Moi–ż to rodzice
+>532                          Jak to? brak miłości?
+<532                          to? brak miłości?
+>542 Niestety! Czemuż, zdając się niebianką,
+>543 Miłość jest w gruncie tak srogą tyranką?
+<542 Niestety! Czemuż, zdając się
+<543 Miłość jest w tak srogą tyranką?
+>549 Miłość na oślep zawsze cel swój goni!
+<549 na oślep zawsze cel swój goni!
+>551 Jakiś spór? Nie mów mi o nim, wiem wszystko.
+<551 Jakiś spór? Nie mów mi o nim, wszystko.
+>553 O! wy sprzeczności niepojęte dziwa!
+<553 wy sprzeczności niepojęte dziwa!
+>557 Szpetny chaosie wdzięków! Ciężki puchu!
+<557 Szpetny wdzięków! Ciężki puchu!
+>569 ROMEO
+<570 
+>585 Brzemię powiększasz przewyżką twojego;
+<585 Brzemię powiększasz przewyżką
+>589 To dym, co z parą się unosi;
+<589 To dym, co parą westchnień się unosi;
+>619 Mam–że wraz i
+<619 Mam–że wraz jęczyć i mówić?
+<622 BENWOLIO
+>623 
+>624                          Nie jęczyć,
+<624 Nie jęczyć,
+>626 Kogóż kochasz? Powiedz.
+<626 Kogóż to kochasz? Powiedz.
+>633 Dobre dla tego, kto jest w tak złym stanie?
+<633 Dobre dla kto jest w tak złym stanie?
+>646 piękna.
+<646 Jest piękna.
+>658 Pod twardą zbroją wstydliwości swojej
+<658 twardą zbroją wstydliwości swojej
+>661 Odpiera szturmy napastniczych;
+<661 Odpiera szturmy spojrzeń napastniczych;
+>676 Bo piękność, którą własna srogość strawia,
+<676 Bo piękność, którą srogość strawia,
+>691 Doradź–że także, bym sposobem
+<691 Doradź–że także, jakim bym sposobem
+>703 To byłby tylko sposób przywołania
+<703 To tylko sposób przywołania
+>707 Pod nią zbiór ponęt; co wzrok postradał,
+<707 Pod nią zbiór ponęt; ten, co wzrok postradał,
+>713 Bądź zdrów, niewczesną podajesz mi radę.
+<713 Bądź zdrów, niewczesną podajesz mi
+>731 jak mnie karą zagrożono
+<731 Podobną jak mnie karą zagrożono
+>740 Tym ci żałośniej, że od tyla
+<740 Tym ci żałośniej, że od tyla czasu
+<745 KAPULET
+>746 
+>766 Chęć ma z jej chęcią nie będzie w rozterce;
+>767 Jeśli cię przyjmie, głos ojca w tym względzie
+<766 Chęć ma jej chęcią nie będzie w rozterce;
+<767 Jeśli przyjmie, głos ojca w tym względzie
+>771 Być jednym w nader miły sposób
+<771 Być jednym więcej, w nader miły sposób
+>774 Takie dziś gwiazdy ziemskie
+<774 Takie dziś gwiazdy ziemskie zamigocą,
+>776 Uciechy, młodym
+<776 Uciechy, młodym ludziom odpowiednie,
+>778 Gdy w progu zimy się pojawia;
+>779 Takie uciechy, w całej mocy,
+<778 Gdy w starym progu zimy się pojawia;
+<779 Takie uciechy, w całej swojej mocy,
+>787 / Sługi /
+<787 / do Sługi /
+>802 Mam osoby wyszczególnione: to się znaczy według tego, co tu napisano… A cóż tu napisano? Oto: że szewc ma pilnować łokcia, a krawiec kopyta; rybak pędzla, a malarz więcierza. Jakże wynajdę osoby tu kiedy nie wynaleźć środka na wyczytanie tego, co osoba pisząca tu wyszczególniła? Kazano mi jednak; muszę się udać do uczonych. Oto jacyś ichmoście. W samą porę nadchodzą.
+<802 Mam wynaleźć osoby tu wyszczególnione: to się znaczy według tego, co tu napisano… A cóż tu napisano? Oto: że szewc ma pilnować łokcia, a krawiec kopyta; rybak pędzla, a malarz więcierza. Jakże wynajdę osoby tu wyszczególnione, kiedy nie mogę wynaleźć środka na wyczytanie tego, co osoba pisząca tu wyszczególniła? Kazano mi jednak; muszę się udać do uczonych. Oto jacyś ichmoście. W samą porę nadchodzą.
+>809 Tak, bracie, płomień spędza się płomieniem,
+<809 bracie, płomień spędza się płomieniem,
+>822 BENWOLIO
+>824 Na cóż to, proszę?
+<824 Na to, proszę?
+<826 
+>829                          Na oparzeliznę;
+<829                          Na
+>836 Czyś ty oszalał?
+<836 Czyś oszalał?
+>842 Lecz wpadłem w stan niż szalonego;
+>843 W loch się dostałem, jestem pastwą głodu,
+<842 Lecz wpadłem w gorszy stan niż szalonego;
+<843 loch się dostałem, jestem pastwą głodu,
+>849 Nawzajem, panie. Czy umiesz czytać?
+<849 panie. Czy umiesz pan czytać?
+>862 Czy pan pisane rzeczy umie
+<862 Czy pan pisane rzeczy umie czytać?
+>875 / chce odejść
+<875 / chce odejść /
+>884 „Sinior Martino, jego małżonka i córki. Hrabia Anzelm ze swymi pięknymi siostrami. Siniora wdowa po Witruwiuszu. Sinior Placentio i jego miłe siostrzenice. Merkucjusz i jego brat Walenty. Mój stryj Kapulet z małżonką i córkami. Moja śliczna siostrzenica, Rozalina, Liwia, Sinior Valentio i nasz kuzyn Tybalt. Lucjusz i nadobna Helena.” Wspaniałe grono! (oddaje kartę) Gdzież oni przyjść mają?
+<884 „Sinior Martino, jego małżonka i córki. Hrabia Anzelm ze swymi pięknymi siostrami. Siniora po Witruwiuszu. Sinior Placentio i jego miłe siostrzenice. Merkucjusz i jego brat Walenty. Mój stryj Kapulet z małżonką i córkami. Moja śliczna siostrzenica, Rozalina, Sinior Valentio i nasz kuzyn Tybalt. Lucjusz i nadobna Helena.” Wspaniałe grono! (oddaje kartę) Gdzież oni przyjść mają?
+>899 Do naszego pałacu, na wieczerzę.
+<899 Do pałacu, na wieczerzę.
+>904 Do
+<904 Do czyjego pałacu?
+>909 Mojego pana.
+<909 pana.
+>912 ROMEO
+>914 W istocie powinienem się był wszystkim spytać, kto nim jest.
+<914 W istocie powinienem się był przede wszystkim spytać, kto nim jest.
+<916 
+>919 Oznajmię to panu bez pytania: moim panem jest możny, bogaty Kapulet; jeżeli panowie nie jesteście z Montekich, to was zapraszam do niego na kubek wina. Bądźcie weseli.
+<919 Oznajmię to panu bez pytania: moim panem jest możny, bogaty Kapulet; jeżeli panowie nie jesteście z domu Montekich, to was zapraszam do niego na kubek wina. Bądźcie weseli.
+>929 Pójdź i okiem bezstronnym porównaj
+>930 Jej twarz z tych, które ci wskażę:
+<929 Pójdź tam i okiem bezstronnym porównaj
+<930 Jej twarz z obliczem tych, które ci
+>938 Wy, zalewane wciąż, a jeszcze żywe
+<938 Wy, zalewane wciąż, a żywe
+>940 Zatrzeć jej wdzięki! Nigdy
+>941 Równej piękności nie widziało słońce.
+<940 Zatrzeć jej wdzięki! Nigdy wszechwidzące
+<941 Równej piękności nie widziało
+>946 Wielbisz ją, boś ją jedną na oboich
+<946 Wielbisz ją, boś jedną na oboich
+>949 Obok niej inną, którą ci gotowy
+>950 Będę wskazać; a ręczę, że owa
+<949 Obok niej którą ci gotowy
+<950 Będę dziś wskazać; a ręczę, że owa
+>995                          Jestem, pani;
+<995                          pani;
+>1003 Marto, pozostań; przychodzi mi na myśl,
+>1004 Że twa obecność może być potrzebna.
+>1005 Julka ma piękny już wiek, wszakże prawda?
+<1003 Marto, pozostań; przychodzi mi myśl,
+<1004 Że twa może być potrzebna.
+<1005 Julka ma już wiek, wszakże prawda?
+>1020 Czternaście moich zębów w zakład stawię
+<1020 moich zębów w zakład stawię
+>1029 Mniej więcej.
+<1029 Mniej
+<1032 MARTA
+>1033 
+>1041 i Pawła skończy spełna lat czternaście.
+<1041 i Pawła skończy lat czternaście.
+>1043 Rok jedenasty od trzęsienia ziemi;
+<1043 Rok jedenasty trzęsienia ziemi;
+>1046 Tego jednego nigdy nie zapomnę.
+<1046 Tego jednego nie zapomnę.
+>1049 Państwo byliście tego dnia w Mantui.
+>1050 A co? mam pamięć? Ale jak mówiłam,
+<1049 Państwo byliście dnia w Mantui.
+<1050 A co? mam pamięć? jak mówiłam,
+>1052 Poczuła gorycz, trzeba było widzieć,
+<1052 Poczuła trzeba było widzieć,
+>1060 Mój mąż, świeć Panie jego duszy! podniósł
+<1060 Mój mąż, świeć Panie duszy! podniósł
+>1062 „Plackiem - rzekł - padasz a jak przyjdzie
+<1062 „Plackiem - rzekł padasz teraz, a jak przyjdzie
+>1081 Ale nie mogę wstrzymać się od śmiechu,
+>1082 Kiedy przypomnę sobie, jak to ona
+<1081 Ale nie mogę wstrzymać się śmiechu,
+<1082 Kiedy przypomnę sobie, jak to
+>1087 A jak dorośniesz, to na upadniesz,
+<1087 A jak dorośniesz, to na wznak upadniesz,
+>1102 Patrzeć na twoje zamęście!…
+<1102 Patrzeć twoje zamęście!…
+>1108 To jest punkt właśnie, o którym chcę
+>1109 Powiedz mi, Julio, co myślisz i
+<1108 To jest punkt właśnie, o którym chcę mówić.
+<1109 Powiedz mi, Julio, co myślisz i jakie
+>1120 O tym zaszczycie! Gdybym ja była
+>1121 Twą karmicielką, rzekłabym, żeś mądrość
+<1120 tym zaszczycie! Gdybym nie ja była
+<1121 Twą karmicielką, rzekłabym, mądrość
+>1135 MARTA
+<1136 
+>1148 to, to prawda: kwiat to, kwiat prawdziwy.
+<1148 Co to prawda: kwiat to, kwiat prawdziwy.
+>1153 Cóż, Julio? Będziesz mogła go kochać?
+>1154 Dziś w ujrzysz go wśród naszych gości.
+>1155 Wczytaj się w księgę jego lic, na
+<1153 Cóż, Julio? Będziesz mogła kochać?
+<1154 Dziś wieczór ujrzysz go wśród naszych gości.
+<1155 Wczytaj się w księgę jego lic, na których
+>1158 Zgodnie się schodzą z sobą i jednoczą;
+<1158 Zgodnie się schodzą z sobą i
+>1164 gdy piękną treść piękny kryje;
+>1165 I tym wspanialsza, więcej jest warta
+<1164 Miło, gdy piękną treść piękny wierzch kryje;
+<1165 I tym wspanialsza, tym więcej jest warta
+>1174 Zawżdy z mężczyzną kobiecie.
+<1174 Zawżdy z mężczyzną przybywa kobiecie.
+>1185 Nie głębiej jednak myślę w tę rzecz wglądać,
+<1185 Nie głębiej jednak myślę w tę wglądać,
+>1213 / Ulica. Wchodzą Romeo, Merkucjo i Benwolio w towarzystwie pięciu czy sześciu masek. Ludzie z pochodniami i inne osoby. /
+<1213 Ulica. Wchodzą Romeo, Merkucjo i w towarzystwie pięciu czy sześciu masek. Ludzie z pochodniami i inne osoby. /
+>1231 Niech sobie o nas co zechcą;
+<1231 Niech sobie nas pomyślą, co zechcą;
+>1250 Wy macie lekkie trzewiki, to tańczcie;
+<1250 Wy macie lekkie to tańczcie;
+>1259 I wznieś się nimi nad sferę.
+<1259 I wznieś się nimi nad poziomą sferę.
+>1272 A gdybyś upadł z ją byś obrzemił.
+<1272 A gdybyś upadł z nią, ją byś obrzemił.
+>1279 Zbyt, owszem, twarda, szorstka koląca.
+<1279 Zbyt, owszem, twarda, szorstka i koląca.
+<1282 MERKUCJO
+>1283 
+>1285 Kol ją, gdy kole, a zwalisz ją
+<1285 Kol ją, gdy kole, a zwalisz ją łatwo.
+>1289 wkłada maskę /
+<1289 / wkłada maskę /
+>1299 Ostro już tylko polećmy się nogom.
+<1299 Ostro już tylko się nogom.
+>1306 Jak ów pachołek, co świeci swej pani,
+<1306 Jak pachołek, co świeci swej pani,
+>1313 Co cię tak martwi, a w czym (z winnym
+>1314 Uszanowaniem dla twojej miłości),
+>1315 Jak w błocie, widzę, uszy zagrzązłeś.
+<1313 Co cię tak martwi, a w czym (z całym winnym
+<1314 Uszanowaniem dla twojej
+<1315 Jak w błocie, widzę, po uszy zagrzązłeś.
+>1319 ROMEO
+<1320 
+<1325 MERKUCJO
+>1326 
+>1328 psujem świece bez potrzeby,
+<1328 Zarówno psujem świece bez potrzeby,
+>1337 Za rzecz stosowną pójść tam na ten festyn,
+<1337 Za stosowną pójść tam na festyn,
+>1358 Cóż ci się śniło?
+<1358 Cóż się śniło?
+>1370 Gdy w gruncie marzą o rzeczach prawdziwych.
+<1370 Gdy w marzą o rzeczach prawdziwych.
+>1375 Snadź się królowa Mab widziała z
+>1376 Ta, co to babi wieszczkom i w postaci
+>1377 Kobietki mało co większej niż agat
+<1375 Snadź się królowa Mab widziała z tobą;
+<1376 co to babi wieszczkom i w
+<1377 Kobietki mało co większej agat
+>1379 Ciągniona cugiem atomów,
+>1380 tuż śpiącemu przeciąga pod nosem.
+<1379 Ciągniona cugiem drobniuchnych atomów,
+<1380 Tuż, tuż śpiącemu przeciąga pod nosem.
+>1382 Osłona z lśniących skrzydełek szarańczy;
+<1382 z lśniących skrzydełek szarańczy;
+>1387 Przez pół tak wielka jak ów krągły owad,
+>1388 Co siedzi w palcu leniwej dziewczyny;
+<1387 Przez tak wielka jak ów krągły owad,
+<1388 Co siedzi palcu leniwej dziewczyny;
+>1390 Dzieło wiewiórki lub majstra robaka,
+<1390 Dzieło wiewiórki majstra robaka,
+>1403 Za bardzo znajdzie cukrem przesycony.
+<1403 bardzo znajdzie cukrem przesycony.
+>1408 Dziesięcinnego wieprza nos go łechce:
+>1409 mu nowe śnią się beneficja
+<1408 Dziesięcinnego wieprza w nos go
+<1409 Wtedy mu nowe śnią się
+>1414 Wtem mu zatrąbi ucho: nasz bohater
+>1415 Truchleje, się, klnąc pacierz
+>1416 I znów zasypia. Taka jest Mab: ona,
+<1414 Wtem mu zatrąbi w ucho: nasz bohater
+<1415 Truchleje, zrywa klnąc zmawia pacierz
+<1416 I znów Taka jest Mab: ona,
+>1419 Które rozczesać
+<1419 Które rozczesać niebezpiecznie; ona
+>1422 Dźwigać ciężary, by się z czasem mogły
+>1423 Zawołanymi stać gospodyniami.
+<1422 Dźwigać by się z czasem mogły
+<1423 Zawołanymi stać
+>1429                          już, skończ, Merkucjo,
+<1429                          Skończ już, skończ, Merkucjo,
+>1435 Prawię o marzeniach,
+>1436 Które w istocie niczym innym nie są
+<1435                          Prawię o marzeniach,
+<1436 Które w niczym innym nie są
+>1439 Tak subtelnego właśnie jak powietrze;
+>1440 Bardziej niż wiatr, który już to
+<1439 Tak właśnie jak
+<1440 Bardziej niestała niż wiatr, który już to
+>1447 Coś ten wiatr zawiał, się, i na nas,
+<1447 Coś ten wiatr zawiał, zdaje i na nas,
+>1457 tej nocy i kres zamkniętego
+<1457 Uciech tej nocy i kres zamkniętego
+>1460 Lecz niech Ten, który ma ster mój w ręku,
+<1460 Lecz niech Ten, który ma ster w swym ręku,
+>1468 / /
+<1468 / Wychodzą. /
+>1479 Gdzie Potpan? Czemu nie pomaga Gęsi mu paść, nie służyć.
+<1479 Gdzie Potpan? Czemu nie pomaga sprzątać? Gęsi mu paść, nie służyć.
+>1489 Powynoście stołki! usuńcie na bok bufet! Pozbierajcie srebra! Schowaj no tam dla mnie, braciszku, kawałek marcepana i szepnij na ucho odźwiernemu, żeby wpuścił Zuzannę Grindstone i Nelly; jak mię kochasz! Antoni! Potpan!
+<1489 Powynoście stołki! usuńcie na bok bufet! Pozbierajcie srebra! Schowaj no tam dla mnie, braciszku, kawałek marcepana i szepnij na ucho odźwiernemu, wpuścił Zuzannę Grindstone i Nelly; jak mię kochasz! Antoni! Potpan!
+>1499 Wołają was, czekają na was i niecierpliwią się w wielkiej sali.
+<1499 Wołają was, czekają na was i niecierpliwią się w wielkiej
+>1504 Nie możemy być tu i tam razem. Dalej, chłopcy! pohulajmy–ż dzisiaj! Kto umie czekać, wszystkiego się doczeka.
+<1504 Nie możemy być tu i tam razem. Dalej, chłopcy! pohulajmy–ż dzisiaj! Kto umie czekać, wszystkiego się
+>1506 / Oddalają się. Kapulet i inni wchodzą gośćmi i maskami. /
+<1506 / Oddalają się. Kapulet i inni gośćmi i maskami. /
+>1511 Witaj, cna młodzi! Wolne nagniotków
+>1512 Damy rachują na waszą ruchawość,
+>1513 Śliczne panienki, któraż was
+<1511 Witaj, cna młodzi! Wolne od nagniotków
+<1512 Damy rachują na waszą
+<1513 Śliczne panienki, któraż z was odmówi
+>1515 Że ma nagniotki. A co? Tom was zażył!
+<1515 Że ma nagniotki. A co? Tom was
+>1525 Hej! więcej światła! Wynieście te
+<1525 Hej! więcej światła! Wynieście te stoły!
+>1527 Siadaj–że, siadaj, Kapulecie!
+<1527 Siadaj–że, siadaj, bracie Kapulecie!
+>1529 Jakże to dawno byliśmy obydwaj
+<1529 Jakże to byliśmy obydwaj
+>1536 Lat ze trzydzieści.
+<1536 ze trzydzieści.
+>1542 Było to, pomnę, na godach Lucencja;
+<1542 Było to, na godach Lucencja;
+>1544 Będzie dwadzieścia pięć lat.
+<1544 Będzie dwadzieścia pięć
+>1547 KAPULET
+<1547 DRUGI KAPULET
+>1550 Wszak już syn jego jest trzydziestoletni.
+<1550 już syn jego jest trzydziestoletni.
+>1555 Co mi waść prawisz? Przede dwoma laty
+>1556 jego nie był jeszcze pełnoletni.
+<1555 Co mi prawisz? Przede dwoma laty
+<1556 Syn jego nie był jeszcze pełnoletni.
+>1576 Jak drogi klejnot u uszu Etiopa.
+<1576 Jak klejnot u uszu Etiopa.
+>1582 dotąd? zaprzecz, mój wzroku!
+<1582 Kochał–żem dotąd? O! zaprzecz, mój wzroku!
+<1586 TYBALT
+>1587 
+>1592 Na co mi wzdyma serce,
+<1592 Na krew szlachetną, co mi wzdyma serce,
+>1598 Tybalcie, co ci to? Czego zżymasz?
+<1598 Tybalcie, co ci to? Czego się zżymasz?
+>1603 tej, stryju, pewno nie wytrzymasz:
+<1603 Ujmy stryju, pewno nie wytrzymasz:
+>1620 Daj mu waść pokój, nie wychodzi
+<1620 Daj mu waść nie wychodzi przecie
+>1623 Ma za młodzieńca pełnego przymiotów;
+<1623 za młodzieńca pełnego przymiotów;
+>1627 Taka ma wola; jeśli ją szanujesz,
+>1628 Okaż uprzejmość i spędź precz z oblicza
+<1627 ma wola; jeśli ją szanujesz,
+<1628 Okaż uprzejmość i spędź precz z
+>1634 Taki w domu nabawia choroby;
+<1634 Taki gość w domu nabawia choroby;
+>1659 Siedź cicho albo… Hola! Więcej światła! —
+>1660 Ja cię uciszę. Patrz go! Żwawo, chłopcy!
+<1659 Siedź cicho albo… Więcej światła! —
+<1660 Ja cię uciszę. Patrz go! — Żwawo, chłopcy!
+>1670 / oddala się /
+<1670 / oddala się
+>1677 Jeśli dłoń moja, co tę świętość
+>1678 Bluźni dotknięciem: zuchwalstwo takowe
+<1677 Jeśli dłoń moja, co tę świętość trzyma,
+<1678 dotknięciem: zuchwalstwo takowe
+>1697 Nie mają–ż święci ust tak jak
+<1697 Nie mają–ż święci ust tak jak pielgrzymi?
+>1722 I z ust swych moim daj rozgrzeszenie.
+<1722 I ust swych moim daj wziąć rozgrzeszenie.
+>1724 / całuje ją /
+<1724 / całuje ją
+>1729 Moje więc teraz obciąża grzech zdjęty.
+<1729 Moje więc obciąża grzech zdjęty.
+>1753 Któż jest jej matką?
+<1753 Któż jej matką?
+>1758 Jej matką? Bajbardzo!
+>1759 Nikt inny, jeno pani domu;
+<1758                          Jej matką? Bajbardzo!
+<1759 Nikt inny, jeno tego domu;
+>1761 Ja byłam mamką tej, coś nią pan mówił.
+<1761 Ja mamką tej, coś z nią pan mówił.
+>1768 Życie me jest w ręku mego wroga.
+<1768 Życie me jest więc w ręku mego wroga.
+>1787 Chcecie koniecznie? Muszę ustąpić.
+>1788 Dzięki wam, mili i panie.
+<1787 Chcecie koniecznie? Muszę więc ustąpić.
+<1788 Dzięki wam, mili panowie i panie.
+>1791 / do Drugiego Kapuleta
+<1791 / do Drugiego Kapuleta /
+>1796 / Wychodzą wszyscy prócz Julii Marty. /
+<1796 / Wychodzą wszyscy prócz Julii i Marty. /
+>1807 To syn starego Tyberia.
+<1807 To syn starego
+>1830                          Nie wiem.
+<1830                          Nie
+>1842 Zwie się Romeo, jest z rodu Montekich,
+<1842 Zwie się Romeo, jest z rodu
+<1846 JULIA
+>1847 
+>1849 Jako lubego za poznałam!
+>1850 Dziwny miłości traf się na mnie iści,
+<1849 Jako lubego za późno poznałam!
+<1850 Dziwny miłości traf się na iści,
+>1871                          Dalej!
+<1871                          Dalej! dalej!
+>1874 / /
+<1874 Wychodzą.
+>1879 AKT DRUGI
+<1879 AKT
+>1883 PROLOG
+<1884 
+>1891 W jej miejscu władnie siła nowej;
+<1891 W jej miejscu władnie siła żądzy nowej;
+>1893 Piękność, dla której umrzeć był gotowy.
+<1893 Piękność, dla umrzeć był gotowy.
+>1896 W oczach obojga żar jednaki płonie;
+<1896 W oczach obojga żar płonie;
+>1898 A ona miłość z wędki chłonie.
+<1898 A ona miłość z wędki grozy chłonie.
+>1900 On się nie zbliży i przed nią złoży
+<1900 On się nie zbliży i przed nią nie złoży
+>1902 I choć w łonie namiętność się sroży,
+<1902 I jej, choć w łonie namiętność się sroży,
+>1912 / Pusty plac do ogrodu Kapuletów. Wchodzi Romeo. /
+<1912 / Pusty plac przytykający do ogrodu Kapuletów. Wchodzi Romeo. /
+<1936 BENWOLIO
+>1937 
+>1944                          Użyję nań zaklęć;
+<1944 Użyję nań zaklęć;
+>1957 Na jej wysokie czoło, krasne usta,
+>1958 nóżki i toczone biodra
+<1957 Na jej wysokie czoło, krasne
+<1958 Wysmukłe nóżki i toczone biodra
+>1960 W właściwej sobie postaci ukazał.
+<1960 właściwej sobie postaci ukazał.
+>1971 sprawą mojego zaklęcia
+>1972 zaczarowane koło jego pani
+>1973 Inny wkroczył i stał tam dopóty,
+<1971 Gdyby za sprawą mojego zaklęcia
+<1972 W zaczarowane koło jego pani
+<1973 Inny duch wkroczył i stał tam dopóty,
+>1977 Bo wywołuje imię jego pani
+>1978 Jego jedynie naturalną postać.
+<1977 Bo wywołuje w imię jego pani
+<1978 jedynie naturalną postać.
+>1983 Pójdź! skrył się owdzie pomiędzy drzewami,
+>1984 By się tam zbratał z nocą —
+<1983 skrył się owdzie pomiędzy drzewami,
+<1984 By się tam zbratał z tajemniczą nocą —
+>1994 Kiedy są same — figą.
+<1994 Kiedy są same — nazywają figą.
+>1999 Bo to polowe tu dla mnie za chłodne.
+<1999 Bo to polowe tu mnie za chłodne.
+<2003 BENWOLIO
+>2004 
+>2006 Takiego, co być nie chce znaleziony.
+<2006 co być nie chce znaleziony.
+>2008 / Wychodzą. /
+<2008 Wychodzą. /
+>2012 DRUGA
+<2012 SCENA DRUGA
+>2023 Lecz cicho! Co za blask strzelił tam z
+<2023 Lecz cicho! Co za blask strzelił tam z okna!
+>2025 Wnijdź, cudne słońce, zgładź zazdrosną lunę,
+>2026 Która aż zbladła z gniewu, że ty jesteś
+>2027 Od piękniejsza; o, jeśli zazdrosna,
+>2028 Nie bądź służką! Jej szatkę zieloną
+<2025 Wnijdź, cudne zgładź zazdrosną lunę,
+<2026 aż zbladła z gniewu, że ty jesteś
+<2027 Od niej piękniejsza; o, jeśli zazdrosna,
+<2028 Nie bądź jej służką! Jej szatkę zieloną
+>2030 moja pani, to moja kochanka!
+>2031 O! gdyby mogła jest dla mnie!
+<2030 To moja pani, to moja kochanka!
+<2031 O! gdyby mogła wiedzieć, czym jest dla mnie!
+>2033 Jej oczy mówią, więc odpowiem.
+<2033 Jej oczy mówią, oczom więc odpowiem.
+>2037 Prosiły oczu jej, aby zastępczo
+<2037 Prosiły oczu jej, zastępczo
+>2045 Myśląc, że to już nie noc, lecz dzień biały.
+<2045 że to już nie noc, lecz dzień biały.
+>2062 podziwienia oku śmiertelników,
+>2063 które się wlepia w niego, aby patrzeć,
+<2062 od podziwienia oku śmiertelników,
+<2063 które się wlepia w niego, patrzeć,
+>2071 Wyrzecz się swego rodu, rzuć tę nazwę!
+>2072 Lub jeśli tego nie możesz uczynić,
+<2071 Wyrzecz się swego rzuć tę nazwę!
+<2072 Lub jeśli tego nie uczynić,
+>2092 Przecież całą swą wartość zatrzymał.
+<2092 Przecież by całą swą wartość zatrzymał.
+>2094 Za to, co nawet cząstką nie jest,
+<2094 Za to, co nawet cząstką ciebie nie jest,
+>2102 Sprawi, że odtąd nie będę Romeem.
+<2102 Sprawi, odtąd nie będę Romeem.
+>2115 Nazwisko jest mi nienawistne,
+>2116 jest, o! święta, nieprzyjazne tobie;
+>2117 Zdarłbym je, gdybym je napisane.
+<2115 Nazwisko moje jest mi nienawistne,
+<2116 Bo jest, o! święta, tobie;
+<2117 je, gdybym miał je napisane.
+>2123 tych ust, a przecież dźwięk już ich mi znany.
+>2124 żeś Romeo, mów? jest żeś Monteki?
+<2123 tych ust, a przecież już ich mi znany.
+<2124 Jest żeś Romeo, mów? jest żeś Monteki?
+>2135 Jak żeś tu przyszedł, powiedz, i dlaczego?
+<2135 Jak tu przyszedł, powiedz, i dlaczego?
+>2144 mur ten przesadziłem,
+<2144 Lekko, bezpiecznie mur ten przesadziłem,
+>2147 więc twoi nie trwożą mię wcale.
+<2147 Krewni więc twoi nie trwożą mię wcale.
+>2158 Niż w ich dwudziestu mieczach; patrz łaskawie,
+<2158 w ich dwudziestu patrz łaskawie,
+>2164 Na Boga! niech cię oni nie ujrzą!
+<2164 Na Boga! niech cię oni tu nie ujrzą!
+>2170 Lecz niech mię znajdą, jeśli ty mię kochasz.
+<2170 niech mię znajdą, jeśli ty mię kochasz.
+>2182 Miłość, co mi go doradziła szukać;
+>2183 Ona mi ja jej oczy dałem.
+<2182 Miłość, co mi go doradziła
+<2183 mi instynkt, ja jej oczy dałem.
+>2192 Gdyby nie co mi twarz maskuje,
+>2193 Widziałbyś na rozlany rumieniec
+>2194 Po tym, co ust mych słyszałeś tej nocy.
+<2192 Gdyby nie ciemność, co mi twarz maskuje,
+<2193 Widziałbyś na niej rozlany rumieniec
+<2194 Po tym, co z ust mych słyszałeś tej nocy.
+>2197 Czy ty mię kochasz? Wiem, że powiesz: tak jest;
+<2197 Czy ty kochasz? Wiem, że powiesz: tak jest;
+>2203 To zmarszczę czoło i przewrotną będę,
+<2203 To zmarszczę i przewrotną będę,
+>2207 możesz sądzić me obejście płochym;
+>2208 Ufaj mi jednak, będę ja
+<2207 Stąd możesz sądzić me obejście płochym;
+<2208 Ufaj mi jednak, będę ja wierniejsza
+>2214 Płochości tego wylania mych uczuć,
+<2214 Płochości wylania mych uczuć,
+>2221 Przysięgam na ten księżyc, co wspaniale
+>2222 Powleka srebrem tamtych drzew wierzchołki…
+<2221 Przysięgam na ten księżyc, co
+<2222 srebrem tamtych drzew wierzchołki…
+>2227 O! nie przysięgaj na księżyc, bo księżyc
+>2228 zmienia kształt swej pięknej tarczy;
+<2227 O! nie przysięgaj na księżyc, bo
+<2228 Co tydzień zmienia kształt swej pięknej tarczy;
+>2235 cóż mam przysiąc?
+<2235 Na cóż mam przysiąc?
+>2241 Lub wreszcie przysiąż na samego
+<2241 Lub wreszcie przysiąż na samego siebie:
+>2243 To ci uwierzę.
+<2243 ci uwierzę.
+>2258 Podobne niby blasku, co znika,
+<2258 Podobne niby do blasku, co znika,
+>2262 Bądź zdrów! i zaśnij z tak błogim spokojem,
+>2263 Jaki, twej łaski, czuję w sercu mojem.
+<2262 Bądź zdrów! i z tak błogim spokojem,
+<2263 Jaki, z twej łaski, czuję w sercu mojem.
+>2268 Także mam odejść nie
+<2268 Także mam odejść zaspokojony?
+>2273 Jakiegoż więcej zaspokojenia?
+<2273 Jakiegoż więcej chcesz zaspokojenia?
+>2283 Jużem ci dała je, nimeś zażądał;
+<2283 Jużem ci je, nimeś zażądał;
+>2289 Chciałaż byś cofnąć je? Dlaczego?
+<2289 Chciałaż byś cofnąć je? Dlaczego? luba!
+>2295 A przecież jest to żądanie
+<2295 A przecież jest to żądanie zbyteczne;
+>2305 — Najmilszy, pomnij być stałym! — Zaczekaj,
+<2305 — Najmilszy, być stałym! — Zaczekaj,
+>2311 ROMEO
+<2312 
+>2315 się w nocy nie jest marą tylko?
+<2315 Dziejąc się w nocy nie jest marą tylko?
+>2323 Jeszcze słów parę, a dobranoc,
+<2323 Jeszcze słów parę, a potem dobranoc,
+>2330 I w świat za tobą pójdę w imię boże.
+<2330 I w świat tobą pójdę w imię boże.
+>2355                          Zaraz
+>2356 — Jeśli mię zwodzisz, o! to cię zaklinam,
+<2355                          Zaraz idę.
+<2356 — Jeśli mię o! to cię zaklinam,
+>2358 — Jutro przyślę.
+<2358 — Jutro więc przyślę.
+>2376 niedobra tam, gdzie ty nie świecisz.
+<2376 Razy niedobra tam, gdzie ty nie świecisz.
+>2379 A gdy nadejdzie z rozstanek,
+<2379 A gdy nadejdzie z kochanką rozstanek,
+>2387 / ukazuje się znowu /
+<2387 / się znowu /
+>2391 przywołać! Przymus jest ochrypły,
+>2392 Nie głośno mówić, gdyby nie to,
+>2393 Wstrząsłabym góry, gdzie się echo kryje,
+<2391 Nazad przywołać! Przymus jest
+<2392 Nie może głośno mówić, gdyby nie to,
+<2393 Wstrząsłabym góry, gdzie echo kryje,
+>2401 Jak srebrny dźwięk ma nocą głos kochanki!
+<2401 Jak srebrny dźwięk nocą głos kochanki!
+>2428                          Dobrze.
+<2428                         
+>2446 A ja wciąż czekać będę, abyś ciągle
+<2446 A ja wciąż będę, abyś ciągle
+>2464 Chciałbym biednym ptaszkiem w twoim
+<2464 Chciałbym być biednym ptaszkiem w twoim ręku.
+>2481 Spieszę do ojca Laurentego
+<2481 Spieszę do ojca Laurentego celi,
+>2490 / Cela Laurentego. Wchodzi Ojciec Laurenty z koszykiem w ręku. /
+<2490 / Cela Ojca Laurentego. Wchodzi Ojciec Laurenty z koszykiem w ręku. /
+>2495 Szary spędza ponury
+<2495 Szary poranek spędza mrok ponury
+>2498 Z dróg ubitych kołami Tytana.
+<2498 Z dróg dnia ubitych kołami Tytana.
+>2500 Rosę wypije i rozweseli,
+<2500 Rosę wypije i świat rozweseli,
+>2503 Ziemia jest matką natury i
+<2503 Ziemia jest matką natury i grobem,
+>2505 I mnóstwo dzieci jej łona widzimy
+>2506 Ciągnących pokarm jej piersi rodzimej;
+>2507 Niejedno skutkach swoich wyśmienite,
+>2508 Każde do czegoś, wszystko
+>2509 O! moc to pełna cudów, co się
+<2505 I mnóstwo dzieci jej widzimy
+<2506 Ciągnących pokarm z jej piersi rodzimej;
+<2507 Niejedno w skutkach swoich wyśmienite,
+<2508 Każde do czegoś, wszystko rozmaite.
+<2509 O! moc to pełna cudów, co się mieści
+>2516 błąd się czynem uszlachetnić może.
+<2516 A błąd się czynem uszlachetnić może.
+>2523 A kędy górę weźmie strona,
+<2523 A kędy górę gorsza weźmie strona,
+>2539 Próżne zostawia o tak wczesnej porze.
+>2540 Troska odbywa w oczach starego,
+<2539 zostawia o tak wczesnej porze.
+<2540 Troska odbywa straż w oczach starego,
+>2542 Ale gdzie czerstwa, wolna od kłopotów
+<2542 Ale czerstwa, wolna od kłopotów
+>2545 Jakiś niepokój, któremu snu władza
+<2545 Jakiś niepokój, któremu władza
+>2569 Brawo, mój synu! Lecz gdzieżeś to bywał?
+<2569 Brawo, mój Lecz gdzieżeś to bywał?
+>2575 Byłem na balu w mego wroga,
+>2576 Gdziem został lecz sroga
+>2577 Czuje cios wzajem przeze mnie zadany,
+<2575 Byłem na balu w domu mego wroga,
+<2576 Gdziem został ranny, lecz zbójczyni sroga
+<2577 Czuje cios wzajem przeze mnie
+>2579 Święty wpływ tylko twej, ojcze, opieki
+<2579 Święty wpływ tylko twej, ojcze,
+>2581 Po jak widzisz, przemawiam,
+<2581 Po chrześcijańsku, jak widzisz, przemawiam,
+>2598 Brakuje tylko, byś nas ty dla świata
+<2598 tylko, byś nas dla świata
+>2602 Błagam cię tylko, niech się to stanie.
+<2602 Błagam cię tylko, niech to dziś stanie.
+>2607 Święty Franciszku! Cóż to za przemiana!
+<2607 Święty Franciszku! to za przemiana!
+>2609 Niczym już dla Miłość więc młodzieży
+<2609 Niczym już dla cię? Miłość więc młodzieży
+>2612 Ściekło z twych oczu dla kochanki!
+<2612 Ściekło z twych oczu dla owej kochanki!
+>2616 Jeszcze twój dawny jęk w uszach mi dzwoni,
+<2616 Jeszcze twój dawny jęk w uszach mi
+>2618 Widoczny jeszcze ślad łez nie
+<2618 Widoczny jeszcze ślad łez nie obmytych,
+>2621 A teraz! nie dziw, gdy mdła płeć upadnie,
+<2621 A teraz! nie dziw, gdy płeć upadnie,
+>2642 Nie w grobie
+<2642                          Nie w grobie
+>2648 Nie łaj mnie, proszę; ta, mi dziś luba,
+>2649 Miłość mą miłością cheruba;
+<2648 Nie łaj mnie, proszę; ta, co mi dziś luba,
+<2649 Miłość mą płaci miłością cheruba;
+>2656 w rzeczach serca nie znasz abecadła,
+<2656 Że w rzeczach serca nie znasz abecadła,
+>2659 i jeden tylko wzgląd mię skłania:
+<2659 Jeden i jeden tylko wzgląd mię skłania:
+>2661 Wyniknie węzeł, który wasze rody
+>2662 Zawistne złączy w piękny łańcuch zgody.
+<2661 Wyniknie który wasze rody
+<2662 złączy w piękny łańcuch zgody.
+>2667 O! prędzej! pilno mi!
+<2667 O! prędzej! pilno
+>2672 Festina lente!
+<2672                          Festina lente!
+>2691 Nie w domu swego ojca przynajmniej; mówiłem z jego służącym.
+<2691 Nie w domu ojca przynajmniej; mówiłem z jego służącym.
+>2724 On mu odpowie odpowiednio, jak człowiek wyzwany.
+<2724 On mu odpowie odpowiednio, człowiek wyzwany.
+>2729 Biedny Romeo! Już trup z niego! Zakłuty czarnymi oczyma przestrzelony na wskroś uszu romansową piosnką; ugodzony w sam rdzeń serca postrzałem ślepego malca łucznika; potrafiż on Tybaltowi stawić czoło?
+<2729 Biedny Romeo! Już z niego! Zakłuty czarnymi oczyma białogłowy; przestrzelony na wskroś uszu romansową piosnką; ugodzony w sam rdzeń serca postrzałem ślepego malca łucznika; potrafiż on Tybaltowi stawić czoło?
+>2739 Coś więcej niż książę kotów; możesz mi wierzyć! Nieustraszony rębacz, bije się jak z nut, zna czas, odległość i miarę; pauzuje w sam raz jak potrzeba: raz, dwa, a trzy to już w pierś. Żaden jedwabny guzik nie wykręci mu się śmierci. Duelista to, duelista pierwszej klasy. Owe nieśmiertelne passado! Owe punto reverso! owe hai!
+<2739 Coś więcej niż książę kotów; możesz wierzyć! Nieustraszony rębacz, bije się jak z nut, zna czas, odległość i miarę; pauzuje w sam raz jak potrzeba: raz, dwa, a trzy to już w pierś. Żaden jedwabny guzik nie wykręci mu się od śmierci. Duelista to, duelista pierwszej klasy. Owe nieśmiertelne passado! Owe punto reverso! owe hai!
+>2749 Niech kaci porwą to plemię sepleniących, przesadnych fantastyków, z ich nowo kutymi terminami! Na Boga, doskonała klinga! Dzielny mąż! Wspaniała dziewka! Nie jest–że to rzecz opłakana, że nas obsiadły te zagraniczne muchy, te modne sroki, pardonnez moi, którym tak bardzo idzie o nową formę, że nawet na starej ławce wygodnie siedzieć nie mogą; te bąki, co bąkają: bon! bon!
+<2749 Niech kaci porwą to plemię śmiesznych, sepleniących, przesadnych fantastyków, ich nowo terminami! Na Boga, doskonała klinga! Dzielny mąż! Wspaniała dziewka! Nie jest–że to rzecz opłakana, że nas obsiadły te zagraniczne muchy, te modne sroki, te pardonnez moi, którym tak bardzo idzie o nową formę, nawet na starej ławce wygodnie siedzieć nie mogą; te bąki, co bąkają: bon! bon!
+>2761 Bez mlecza, jak śledź suszony. O! człowieku! jakżeś się w rybę przedzierzgnął! Teraz rymy Petrarki rozczulają. Laura naprzeciw jego bóstwa jest prostą lubo tamta miała kochanka, co ją opiewał; Dydona flądrą; Kleopatra Cyganką; Helena i Hero szurgotami i otłukami; Tyzbe kopciuchem lub czymś podobnym, zawsze niedystyngowanym. sinior Romeo! Oto masz francuskie pozdrowienie na cześć twoich francuskich pantalonów. Pięknie nas zażyłeś tej nocy.
+<2761 Bez mlecza, jak śledź suszony. O! człowieku! jakżeś się w rybę przedzierzgnął! Teraz go rymy Petrarki rozczulają. Laura jego bóstwa jest prostą pomywaczką, lubo tamta miała kochanka, co ją opiewał; Dydona flądrą; Kleopatra Cyganką; Helena i Hero szurgotami i otłukami; Tyzbe kopciuchem lub czymś podobnym, ale zawsze niedystyngowanym. Bonjour, sinior Romeo! Oto masz francuskie pozdrowienie na cześć twoich francuskich pantalonów. Pięknie nas zażyłeś tej nocy.
+>2766 Dzień dobry wam, drodzy. Jakże to was zażyłem?
+<2766 Dzień dobry wam, moi drodzy. Jakże to was zażyłem?
+>2776 To się znaczy, żem wam zdezerterował. Wybacz, kochany Merkucjo; miałem pilny interes, a w takim przypadku człowiek może zgrzeszyć na polu uprzejmości.
+<2776 To się znaczy, żem wam zdezerterował. kochany Merkucjo; miałem pilny interes, a w takim przypadku człowiek może zgrzeszyć na polu uprzejmości.
+<2789 MERKUCJO
+>2790 
+>2801 Ja bo kwiatem uprzejmości.
+<2801 Ja bo jestem kwiatem uprzejmości.
+>2804 ROMEO
+<2805 
+>2816 Jeżeliś ty kwiatem, to moje są w kwitnącym stanie.
+<2816 Jeżeliś ty kwiatem, to moje trzewiki są w kwitnącym stanie.
+>2821 Brawo! pielęgnuj mi ten dowcip; ażeby, skoro ci się do reszty zedrze podeszwa u trzewików, twój dowcip mógł po prostu
+<2821 Brawo! pielęgnuj mi ten dowcip; ażeby, skoro ci się do reszty zedrze podeszwa u trzewików, twój dowcip mógł po prostu figurować.
+<2829 MERKUCJO
+>2830 
+>2834 ROMEO
+>2836 Pejczą je i pejczą! Biczem i ostrogą, inaczej nazwę je
+<2836 Pejczą je i pejczą! Biczem i ostrogą, inaczej nazwę je hetkami.
+<2838 
+>2841 Jeżeli twój dowcip poluje na dzikie gęsi, to kapituluję; bo on ma więcej kwalifikacji ku temu niż wszystkie moje umysłowe władze. Czy ja ci się zdaję na to, miał z gęsiami do czynienia?
+<2841 Jeżeli twój dowcip poluje na dzikie gęsi, to kapituluję; bo on ma więcej kwalifikacji ku temu niż wszystkie moje umysłowe władze. Czy ja ci się zdaję na to, żebym miał z gęsiami do czynienia?
+>2846 Tyś mi się nigdy na nic nie zdał, wyjąwszy, kiedy miałem do czynienia z gęsiami.
+<2846 Tyś mi się nigdy na nic nie zdał, wyjąwszy, kiedy miałem do z gęsiami.
+>2861 Twój jest gorzką konfiturą, ostrym sosem.
+<2861 Twój dowcip jest gorzką konfiturą, diabelnie ostrym sosem.
+>2871 To koncept z koźlej skórki, której cal da się rozciągnąć tak, że nim opaszesz całą głowę.
+<2871 To koncept koźlej skórki, której da się rozciągnąć tak, że nim opaszesz całą głowę.
+>2876 Rozciągnę go do wyrazu „głowę”, który połączywszy z gęsią, będziesz miał gęsią głowę.
+<2876 Rozciągnę go do wyrazu „głowę”, który połączywszy z gęsią, będziesz gęsią głowę.
+>2881 Nie jest–że to lepiej niż jęczeć z miłości? Teraz to co innego; teraz mi jesteś towarzyski, jesteś Romeem, jesteś tym, czym jesteś; miłość zaś jest podobna owego gapia, co się szwenda wywiesiwszy język, szukając dziury, gdzie by mógł wścibić.
+<2881 Nie jest–że to lepiej niż jęczeć z miłości? Teraz to co innego; teraz mi jesteś towarzyski, jesteś jesteś tym, czym miłość zaś jest podobna do owego gapia, co się szwenda wywiesiwszy język, szukając dziury, gdzie by mógł palec wścibić.
+>2948 Życzymy ci dobrego południa, piękna sinioro.
+<2948 Życzymy ci dobrego południa, sinioro.
+>2978 Ja wiem czasem, ale młodego Romea znajdziesz waćpani starszym, niż był, kiedyś go szukać zaczęła. Jestem najmłodszy tych, co noszą to imię w braku gorszego.
+<2978 Ja wiem czasem, ale młodego Romea znajdziesz waćpani starszym, niż był, kiedyś go szukać zaczęła. Jestem najmłodszy z tych, co noszą to imię w braku gorszego.
+>2993 Jeżeli waćpan nim jesteś, to rada z nim pomówić sam na sam.
+<2993 Jeżeli waćpan nim jesteś, to rada bym z nim pomówić sam na sam.
+>2998 Zaprosi go na wieczorynkę.
+<2998 Zaprosi go na jakąś wieczorynkę.
+>3013 Kotlinę, panie, nie kota; i to w starym piecu, nie w polu.
+<3013 Kotlinę, panie, nie kota; to w starym piecu, nie w polu.
+>3019 zmykaj, chudzino,
+<3019 Lecz zmykaj, chudzino,
+>3021    Gdzie diabeł
+<3021    Gdzie diabeł pali!
+>3023 Romeo, czy będziesz u ojca na obiedzie? My tam idziemy.
+<3023 Romeo, czy będziesz u ojca na My tam idziemy.
+>3035 / Wychodzą Merkucjo i Benwolio.
+<3035 / Wychodzą Merkucjo i Benwolio. /
+>3050 Jeżeli on na mnie co powiedział, dam ja mu, chociażby był niż jest, i miał ze sobą dwudziestu podobnych drabów; a jeżeli mi ujdzie, to znajdę takich, co to potrafią. A hultaj! czy to ja jego kochanką, jego poniewieradłem! (do Piotra) I ty stałeś także i mogłeś ścierpieć, żeby mnie lada gbur używał wedle upodobania za przedmiot swych bezwstydnych żartów?
+<3050 Jeżeli on na mnie powiedział, ja mu, chociażby był zuchwalszy, niż jest, i miał ze sobą dwudziestu sobie podobnych drabów; a jeżeli mi ujdzie, to znajdę takich, co to potrafią. A hultaj! czy to ja jestem jego kochanką, jego poniewieradłem! (do Piotra) I ty tu stałeś także i mogłeś ścierpieć, żeby mnie lada używał wedle upodobania za przedmiot swych bezwstydnych żartów?
+>3055 Nie widziałem jeszcze, żeby kto używał jejmości wedle upodobania; gdybym był to widział, byłbym był pewnie zaraz giwer wydobył, ręczę za to. Umiem się najeżyć tak dobrze jak kto inny, kiedy mam sposobność po temu i prawo sobą.
+<3055 Nie widziałem jeszcze, żeby kto używał jejmości wedle upodobania; gdybym był to widział, byłbym był pewnie zaraz giwer wydobył, ręczę za to. Umiem się najeżyć tak dobrze jak kto inny, kiedy mam sposobność po temu i prawo za sobą.
+<3058 MARTA
+<3060 Dlaboga! tak jestem rozdrażniona, że się wszystko we mnie trzęsie. A hultaj! Otóż, proszę pana, tak jak powiedziałam, moja pani kazała mi się wywiedzieć panu; co mi kazała powiedzieć, to sobie zachowuję; ale wszystkim oświadczam panu, że jeżelibyś ją osadził na koszu, jak to mówią, bo panienka, o której mówię, jest młoda, i dlatego, gdybyś ją pan wywiódł w pole, byłoby to tak ciężkim psikusem, jaki tylko młodej panience można wyrządzić.
+>3060 Dlaboga! tak jestem rozdrażniona, że się wszystko we mnie trzęsie. A hultaj! Otóż, pana, tak powiedziałam, moja pani kazała mi się wywiedzieć o panu; co mi kazała powiedzieć, to sobie zachowuję; przede wszystkim oświadczam panu, że jeżelibyś ją osadził na koszu, jak to mówią, bo panienka, o której mówię, jest młoda, i dlatego, gdybyś ją pan wywiódł w pole, byłoby to tak ciężkim psikusem, jaki tylko panience można wyrządzić.
+>3062 
+>3070 Poczciwości! oświadczę jej to, oświadczę. Niebożę, nie posiądzie się z
+<3070 Poczciwości! oświadczę jej to, oświadczę. Niebożę, nie posiądzie się z radości.
+>3075 Co jej waćpani chcesz oświadczyć? Nie wiesz, co mówić miałem.
+<3075 Co jej waćpani chcesz oświadczyć? wiesz, co mówić miałem.
+>3080 Oświadczę jej, że pan dajesz randewu; co jest, jeżeli się nie ofiarą godną prawdziwego szlachcica.
+<3080 Oświadczę jej, że pan dajesz randewu; co jest, jeżeli się nie mylę, ofiarą godną prawdziwego szlachcica.
+>3085 Powiedz jej, aby pod pozorem spowiedzi przyszła za parę godzin do celi ojca Laurentego, tam ślub weźmiemy. Oto masz waćpani za swoje trudy.
+<3085 Powiedz jej, aby pod spowiedzi przyszła za parę godzin do celi ojca Laurentego, tam ślub weźmiemy. Oto masz waćpani za swoje trudy.
+>3130 ROMEO
+<3131 
+>3137 A więc wszystko dobrze. Co też za miłe stworzenie ta moja panienka! Co to nie wyprawiało, jak było małym! Chryste Panie! Ale, ale, jest tu na mieście jeden pan, niejaki Parys, ten ma na nią diabli apetyt; ale ona, poczciwina, wolałaby patrzeć na bazyliszka niż na niego. Przekomarzam się z nią nieraz i mówię, że ten Parys to wcale przystojny mężczyzna; wtedy ona, powiadam panu, za każdym razem aż blednie, zupełnie tak jak pąsowa chusta na słońcu. Proszę też pana, czy rozmaryn i Romeo nie zaczyna się od takiej samej litery?
+<3137 A więc wszystko Co też za stworzenie ta moja panienka! Co to nie wyprawiało, jak było małym! Chryste Panie! ale, jest tu na mieście jeden pan, niejaki Parys, ten ma na nią diabli apetyt; ale ona, poczciwina, wolałaby patrzeć na bazyliszka niż na niego. Przekomarzam się z nią nieraz i mówię, że ten Parys to wcale przystojny mężczyzna; wtedy ona, powiadam panu, za każdym razem aż blednie, zupełnie tak jak pąsowa chusta na słońcu. Proszę też pana, czy rozmaryn i Romeo nie zaczyna się od takiej samej litery?
+<3145 MARTA
+<3147 Kpiarz z waszmości. To psie imię. To litera dla… Nie, tamto zaczyna się od innej litery. Co też ona o tym prawi, to jest o rozmarynie i o panu: bym, żebyś pan to słyszał.
+>3147 Kpiarz z waszmości. To psie imię. To litera dla… Nie, tamto zaczyna się od innej litery. Co też ona o tym prawi, to jest o rozmarynie i o panu: rada bym, żebyś pan to słyszał.
+>3149 
+>3169 naści mój wachlarz i idź przodem.
+<3169 Piotrze, naści mój wachlarz i idź przodem.
+>3175 SCENA PIĄTA
+<3175 PIĄTA
+>3177 / Kapuletów. Wchodzi Julia. /
+<3177 / Ogród Kapuletów. Wchodzi Julia. /
+>3191 Ma skrzydła z wiatrem idące w zawody.
+>3192 Już teraz słońce jest w samej połowie
+>3193 Dzisiejszej drogi swojej; od dziewiątej
+>3194 Aż do dwunastej trzy już upłynęły
+<3191 Ma skrzydła z wiatrem idące zawody.
+<3192 Już teraz słońce jest samej połowie
+<3193 drogi swojej; od dziewiątej
+<3194 Aż do dwunastej trzy już
+>3198 I słowa moje do mego kochanka,
+<3198 I moje do mego kochanka,
+>3201 ołów ciężcy, zimni, więc leniwi.
+<3201 Jak ołów ciężcy, zimni, więc leniwi.
+>3206 Czyś się widziała z nim? Każ odejść słudze.
+<3206 Czyś się widziała z Każ odejść słudze.
+>3211 Idź, stań za progiem Piotrze.
+<3211 Idź, stań za progiem
+>3219 Czemu tak smutno wyglądasz? Chociażbyś
+>3220 Złe wieści miała, powiedz je wesoło;
+<3219 Czemu smutno wyglądasz? Chociażbyś
+<3220 Złe wieści powiedz je wesoło;
+>3227 Tchu nie mam, pozwól mi odpocząć;
+<3227 Tchu nie mam, pozwól mi trochę odpocząć;
+>3239 Co za Folguj, dlaboga, chwilkę,
+>3240 Czyliż nie widzisz, ledwie oddycham?
+<3239 Co za Folguj, dlaboga, choć chwilkę,
+<3240 Czyliż nie widzisz, że ledwie oddycham?
+>3248 Od której zwłokę nim tłumaczysz;
+<3248 Od wieści, której nim tłumaczysz;
+>3256 Tak, tak, pięknyś panna wybór zrobiła! pannie właśnie męża wybierać. Romeo! żal się Boże! Co mi to za Ma wprawdzie twarz gładszą niż niejeden, ale oczy, niech wszystkie inne schowają; co się zaś tyczy rąk i nóg, i całej budowy, chociaż o tym nie ma co wspominać, przyznać trzeba, że nieporównane. Nie jest to wprawdzie galant całą gębą, ale słodziuchny jak baranek. no, dziewczyno! Bóg pomagaj! A czy jedliście już obiad?
+<3256 Tak, tak, pięknyś panna wybór zrobiła! pannie właśnie męża wybierać. Romeo! żal się Boże! Co mi to za gagatek! Ma wprawdzie twarz gładszą niż niejeden, ale oczy, niech się wszystkie inne schowają; co się zaś tyczy rąk i nóg, i całej budowy, chociaż o tym nie ma co wspominać, przyznać trzeba, że Nie jest to wprawdzie galant całą gębą, ale słodziuchny jak baranek. No, no, dziewczyno! Bóg pomagaj! A czy jedliście
+>3268 Jakby się miała w kawałki rozlecieć.
+<3268 Jakby się miała w kawałki
+>3277 Nianiu, nianiuniu, nianiunieczku droga.
+>3278 Powiedz co mówił mój kochanek?
+<3277 nianiuniu, nianiunieczku droga.
+<3278 Powiedz mi, co ci mówił mój
+>3283 jak dobrze wychowany młodzian,
+<3283 Mówił, jak dobrze wychowany młodzian,
+>3285 zacności. Gdzie waćpanny matka?
+<3285 Pełen zacności. Gdzie waćpanny matka?
+>3321 Śpiesz do celi ojca Laurentego;
+<3321 Śpiesz więc do celi ojca Laurentego;
+>3327 Ma się do gniazdka wśliznąć, jak się ściemni.
+>3328 Jak muszę być ci ku pomocy;
+<3327 Ma się do gniazdka wśliznąć, się ściemni.
+<3328 Jak tragarz, muszę być ci ku pomocy;
+<3333 JULIA
+>3334 
+>3343 / Cela Ojca Laurentego. Ojciec Laurenty i Romeo /
+<3343 / Cela Ojca Laurentego. i Romeo /
+>3367 Lecz słodkość jego graniczy ckliwością
+<3367 Lecz słodkość jego graniczy z ckliwością
+>3370 Tak samo spóźnia się jak zbyt leniwy.
+<3370 Tak samo spóźnia jak zbyt leniwy.
+>3374 Otóż i panna młoda. Mech najcieńszy
+>3375 Nie ugiąłby pod tak lekką stopą.
+<3374 i panna młoda. Mech najcieńszy
+<3375 Nie ugiąłby się pod tak lekką stopą.
+>3377 Owe słoneczne pyłki, co igrają
+<3377 Owe słoneczne pyłki, co
+>3388 Romeo, córko, tobie
+<3388 Romeo, córko, podziękuje tobie
+>3401 Równa się mojej, a jej skreślenia
+>3402 Większy od mego: to osłódź tchnieniem
+<3401 Równa się mojej, a dar jej skreślenia
+<3402 Większy od mego: to osłódź twym tchnieniem
+>3411 Pyszni się z swojej wartości, nie ozdób;
+>3412 Żebracy tylko rachują swe
+>3413 Mojej miłości skarb jest tak niezmierny,
+<3411 Pyszni się z swojej wartości, nie z ozdób;
+<3412 Żebracy tylko rachują swe mienie.
+<3413 Mojej miłości skarb jest tak
+>3439 Oddalmy się proszę cię, Merkucjo,
+<3439 Oddalmy się stąd, proszę cię, Merkucjo,
+>3441 Jak zdybiemy, nie unikniem zajścia,
+<3441 Jak ich zdybiemy, nie unikniem zajścia,
+>3447 Podobnyś do owego burdy, co wchodząc do winiarni rzuca szpadę i mówi: „Daj Boże, abym nie potrzebował!”, a po wypróżnieniu drugiego kubka dobywa jej na dobywacza korków najmniejszej w świecie potrzeby.
+<3447 do owego burdy, co wchodząc do winiarni rzuca szpadę i mówi: „Daj Boże, cię nie potrzebował!”, a po wypróżnieniu drugiego kubka dobywa jej na dobywacza korków bez najmniejszej w świecie potrzeby.
+>3457 Mam cię za tak wielkiego zawadiakę, jakiemu chyba mało kto równy jest we Włoszech; bardziej zaiste skłonnego do breweryj niż do brewiarza.
+<3457 Mam cię za tak wielkiego zawadiakę, jakiemu chyba mało kto równy jest we Włoszech; zaiste skłonnego do breweryj niż do brewiarza.
+<3465 MERKUCJO
+<3467 Gdybyśmy mieli dwóch takich, to byśmy wkrótce nie mieli żadnego, bo jeden by drugiego zagryzł. Tyś gotów człowieka napastować za to, że ma w brodzie jeden włos mniej lub więcej od ciebie. Tyś gotów napastować człowieka za to, że piwo pije, bo w tym upatrzysz przytyk do swoich piwnych oczu; chociaż inne oko, jak piwne, nie upatrzyłoby w tym przytyku. W twojej głowie tak się lęgną swary jak bekasy w ługu, toś też nieraz za to beknął i głowę ci zmyto bez ługu. Pobiłeś raz człowieka za to, że kaszlnął na ulicy i przebudził przez to twego psa, który się wysypiał przed domem. Nie napastował żeś raz krawca za to, że wdział na siebie nowy kaftan w dzień powszedni? kogoś innego za to, że miał stare wstążki u nowych trzewików? I ty mię chcesz moralizować za kłótliwość?
+>3467 Gdybyśmy mieli dwóch takich, to byśmy wkrótce nie mieli żadnego, bo jeden by drugiego zagryzł. Tyś gotów człowieka napastować za to, że ma w brodzie jeden włos mniej lub więcej ciebie. Tyś gotów napastować człowieka za to, że piwo pije, bo w tym upatrzysz przytyk do swoich piwnych oczu; chociaż żadne inne oko, jak piwne, nie upatrzyłoby w tym przytyku. W twojej głowie tak się lęgną swary jak bekasy w ługu, toś też nieraz za to beknął i głowę ci zmyto ługu. Pobiłeś raz człowieka za to, że kaszlnął na ulicy i przebudził przez to twego psa, który się wysypiał przed domem. Nie napastował żeś raz za to, że wdział na siebie nowy kaftan w powszedni? kogoś innego za to, że miał stare wstążki u nowych trzewików? I ty mię chcesz moralizować za kłótliwość?
+>3469 
+>3472 Gdybym był tak skory do kłótni, jak ty jesteś, nikt by mi życia na pięć kwadransów nie zaręczył.
+<3472 Gdybym był tak skory do kłótni, jak ty jesteś, nikt by mi życia na pięć kwadransów nie
+<3482 BENWOLIO
+>3483 
+>3489 Zamknij oczy! Co do tego!
+<3489 Zamknij oczy! Co mi do tego!
+>3512                          Znajdziesz mię ku temu
+<3512 mię ku temu
+>3528 W Masz–li nas za muzykusów!
+<3528 W harmonii? Masz–li nas za muzykusów!
+>3545 Oczy są na to, ażeby patrzały;
+>3546 robią swoje, a my róbmy swoje.
+<3545 Oczy są to, ażeby patrzały;
+<3546 Niech robią swoje, a my róbmy swoje.
+>3572 Tybalcie, powód do kochania
+>3573 Jaki mam, gniew słusznie wzbudzony
+>3574 przemową. Nie jestem ja podły;
+<3572 Tybalcie, do kochania ciebie,
+<3573 Jaki mam, tłumi gniew słusznie wzbudzony
+<3574 Taką przemową. Nie jestem ja podły;
+>3596 Spokojna, nędzna, niegodna submisjo!
+>3597 Alla stoccata wnet jej kres położy.
+<3596 Spokojna, nędzna, submisjo!
+<3597 Alla stoccata wnet jej kres
+>3611 Niczego, mój ty kocikrólu, chcę ci wziąć tylko jedno spomiędzy dziewięciu, jakie masz, abym się nim trochę popieścił; a za nowym spotkaniem uskubnąć ci i tamte jedno po drugim. Dalej! wyciągnij za uszy szpadę z powijaka, inaczej moja gwiźnie ci koło uszu, nim wyciągniesz swoją.
+<3611 Niczego, mój ty kocikrólu, chcę ci wziąć tylko jedno życie spomiędzy dziewięciu, jakie masz, abym się nim trochę popieścił; a za nowym spotkaniem uskubnąć ci i tamte ośm, jedno po drugim. Dalej! wyciągnij za szpadę z powijaka, inaczej moja gwiźnie ci koło uszu, nim wyciągniesz swoją.
+>3623 Merkucjo, schowaj szpadę, jak mnie kochasz.
+<3623 Merkucjo, schowaj szpadę, jak kochasz.
+>3636 Rozdziel ich! Wstydźcie się, moi panowie!
+<3636 Rozdziel ich! Wstydźcie się, moi
+>3638 Książę wyraźnie zabronił
+<3638 Książę wyraźnie zabronił podobnych
+>3647 Nie wybrnę z Czy odszedł ten hultaj
+<3647 Nie wybrnę z tego. Czy odszedł ten hultaj
+>3658 tak, draśniętym trochę, ale rdzennie.
+>3659 Gdzie mój paź? Chłopcze, biegnij po chirurga.
+<3658 Tak, tak, draśniętym trochę, ale rdzennie.
+<3659 Gdzie mój paź? Chłopcze, biegnij chirurga.
+>3671 Zepewne, nie tak głęboka jak
+<3671 Zepewne, nie tak głęboka jak studnia
+>3675 Już się dla tego świata na nic nie zdam.
+<3675 Już się dla tego świata na nic zdam.
+>3679 Co się umie jak z arytmetyki!
+<3679 Co się bić umie jak z arytmetyki!
+>3681 Między nas! Zranił mię pod bokiem twoim.
+<3681 Między nas! Zranił mię pod twoim.
+>3701 Ten człowiek, bliski krewny księcia
+<3701 Ten dzielny człowiek, bliski krewny księcia
+>3703 Poniósł cios za moją dobrą sławę
+<3703 Poniósł cios za mnie; moją dobrą sławę
+>3721 Dzień ten fatalny więcej takich wróży;
+<3721 ten fatalny więcej takich wróży;
+>3735 Precz, pobłażliwa teraz łagodności!
+<3735 Precz, teraz łagodności!
+>3738 Zwracam ci, co mi dałeś! Duch Merkucja
+<3738 Zwracam co mi dałeś! Duch Merkucja
+>3761 Nie stój jak wryty; jeśli cię schwytają,
+>3762 Książę cię na śmierć chroń się zatem!
+<3761 Nie stój wryty; jeśli cię schwytają,
+<3762 cię na śmierć skaże; chroń się zatem!
+>3777 OBYWATEL
+<3777 PIERWSZY OBYWATEL
+>3793 / Wchodzą Książę orszakiem, Monteki i Kapulet z małżonkami swymi i inne osoby. /
+<3793 / Wchodzą Książę z orszakiem, Monteki i Kapulet z małżonkami swymi i inne osoby. /
+>3805 Oto tu leży, przez Romea zgładzon,
+<3805 tu leży, przez Romea zgładzon,
+>3811 Tybalt! Mój krewny! Syn mojego brata!
+<3811 Tybalt! krewny! Syn mojego brata!
+>3819 Benwolio, powiedz, kto ten spór zapalił?
+<3819 Benwolio, powiedz, kto spór zapalił?
+>3825 Romeo darmo przekładał, próżną
+>3826 Była ta kłótnia, przypominał zakaz
+<3825 Romeo darmo przekładał, jak próżną
+<3826 Była ta przypominał zakaz
+>3829 Spokojnym głosem, nawet w korny
+<3829 Spokojnym głosem, nawet w korny sposób,
+>3832 Zwraca morderczą stal w piersi,
+<3832 Zwraca morderczą stal w Merkucja piersi,
+>3841 Cios wymierzony z boku przez
+>3842 Przeciął Merkucja Tybalt zniknął:
+>3843 Wkrótce atoli ukazał się znowu,
+>3844 Kiedy Romeo już był zemstą zawrzał.
+<3841 Cios wymierzony z boku Tybalta
+<3842 Przeciął Merkucja życie. Tybalt zniknął:
+<3843 Wkrótce atoli się znowu,
+<3844 Kiedy Romeo już był
+>3849 Tak się rzecz miała: jeżelim się
+<3849 Tak się rzecz miała: jeżelim się minął
+>3856 Czyni go kłamcą, nie wierz mu, o panie!
+>3857 Ich tu przynajmniej ze dwudziestu było;
+<3856 Czyni go nie wierz mu, o panie!
+<3857 Ich przynajmniej ze dwudziestu było;
+>3860 Słuszna, by śmiercią za to odpowiadał.
+<3860 Słuszna, śmiercią za to odpowiadał.
+>3865 Tybalt ją zadał wprzód Merkucjuszowi,
+<3865 Tybalt ją zadał wprzód
+>3871 Nie mój panie; o, nie wyrzecz tego!
+<3871 Nie mój syn, panie; o, nie wyrzecz tego!
+>3874 Że Tybaltowi nieprawnie przyspieszył
+<3874 Że Tybaltowi przyspieszył
+>3881 Banitujemy go na zawsze
+<3881 Banitujemy go na zawsze stąd.
+>3885 Że wam każdy obmierzłym się
+<3885 Że wam spór każdy obmierzłym się stanie,
+>3887 Ni łzy, ni prośby winnym nie poradzą,
+<3887 Ni łzy, ni prośby winnym poradzą,
+>3889 Bo gdy schwytany będzie, śmierć go czeka.
+<3889 Bo gdy schwytany będzie, śmierć go
+>3899 / Pokój w domu Kapuletów. sama. /
+<3899 / Pokój w domu Kapuletów. Julia sama. /
+>3907 Pognał was owdzie, gdzie się szlak dnia kończy!
+<3907 Pognał was gdzie się szlak kończy!
+>3912 świeci pod czarną krepą
+<3912 Miłości świeci pod twą czarną krepą
+>3914 Tym stosowniejszy mrok dla niej. O nocy!
+<3914 Tym stosowniejszy mrok niej. nocy!
+>3917 Jak się to traci i wygrywa razem
+<3917 się to traci i wygrywa razem
+>3923 Przyjdź, ciemna mój dniu ciemności!
+<3923 Przyjdź, ciemna nocy! Przyjdź, mój dniu w ciemności!
+>3925 Na skrzydłach nocy, jak pióro łabędzie
+>3926 Na grzbiecie kruka. Wstąp, o, wstąp w te progi!
+<3925 Na skrzydłach nocy, pióro łabędzie
+<3926 Na grzbiecie kruka. o, wstąp w te progi!
+>3929 Tak, że się cały świat w tobie zakocha
+<3929 Tak, że się cały świat w zakocha
+>3932 A w posiadanie jego wejść nie mogę;
+>3933 Nabytą jestem także, a nabywca
+>3934 Jeszcze mię nie ma! ten mi nieznośny
+<3932 A w posiadanie jego wejść nie
+<3933 jestem także, a nabywca
+<3934 Jeszcze mię nie ma! Dzień ten mi nieznośny
+>3940 / Wchodzi Marta z drabinką sznurową w ręku. /
+<3940 / Marta z drabinką sznurową w ręku. /
+>3944 Ma dar wymowy. Cóż tam, moja nianiu?
+<3944 Ma dar wymowy. Cóż moja nianiu?
+>3946 Romeo przynieść kazał?
+<3946 przynieść kazał?
+>3963 Ach! on nie żyje, nie żyje! nie żyje!
+>3964 Biada nam! biada nam! stracone!
+>3965 On zginął! on nie żyje! on
+<3963 Ach! on nie żyje, nie żyje! nie
+<3964 Biada nam! biada nam! wszystko stracone!
+<3965 On zginął! on nie żyje! on zabity!
+>3978 Się był spodziewał! Romeo!
+<3978 Się spodziewał! Romeo! Romeo!
+>3983 szatan, że tak mię udręczasz?
+<3983 Cóżeś za szatan, że tak mię udręczasz?
+>3988 takie „tak” istnieje, Julia
+>3989 Istnieć nie zawrą się na zawsze
+>3990 Te usta, które to wywołały.
+<3988 Jeżeli takie „tak” istnieje, Julia
+<3989 Istnieć nie będzie; zawrą się na zawsze
+<3990 Te usta, które to „tak” wywołały.
+>3998 zmiłuj się nad nim, tu, tu oto,
+<3998 Boże, zmiłuj się nad nim, tu, tu oto,
+>4008 Z bogactw do nędzy! Do więzienia, wzroku!
+<4008 Z bogactw do nędzy! Do wzroku!
+>4010 Jak nas ziemi złączył jeden ślub,
+<4010 Jak nas na ziemi złączył jeden ślub,
+<4014 MARTA
+>4015 
+>4024 Romeo zginął? Tybalt zabity?
+<4024 zginął? i Tybalt zabity?
+>4026 Bo są żywi, gdy ci dwaj nie żyją?
+<4026 Bo gdzież są żywi, gdy ci dwaj nie żyją?
+>4032 Romeo zabił go, jest więc
+<4032 Romeo zabił go, jest więc wygnany.
+>4048 Krył–że się kiedy smok w tak pięknym lochu?
+>4049 Luby tyranie, szatanie!
+<4048 Krył–że się kiedy smok tak pięknym lochu?
+<4049 Luby tyranie, anielski szatanie!
+>4056 W raj tak pięknego wprowadziła?
+>4057 Byłaż gdzie książka tak ohydnej treści
+<4056 W raj tak pięknego ciała wprowadziła?
+<4057 gdzie książka tak ohydnej treści
+>4059 Fałsz zamieszkiwał tak przepyszny
+<4059 Fałsz zamieszkiwał tak pałac?!
+>4064 Nie ma czci, nie ma wiary, nie ma prawdy,
+<4064 Nie ma czci, nie wiary, nie ma prawdy,
+>4066 przewrotność, chytrość i obłuda.
+<4066 Sama przewrotność, chytrość i obłuda.
+>4075                          Bodaj ci język oniemiał
+<4075                          Bodaj język oniemiał
+>4078 Na jego czole! bo ono jest tronem,
+>4079 Na którym honor śmiało by mógł zostać
+<4078 Na jego bo ono jest tronem,
+<4079 którym honor śmiało by mógł zostać
+>4099 Spłyńcie do źródła, które was wydało;
+<4099 do źródła, które was wydało;
+>4103 A Tybalt, co chciał zabić męża,
+>4104 Śmierć poniósł; w tym pociecha. Czegóż płaczę?
+<4103 A Tybalt, co zabić mego męża,
+<4104 Śmierć w tym pociecha. Czegóż płaczę?
+>4109 Jak karygodny czyn umysł grzesznika.
+<4109 Jak karygodny czyn w umysł grzesznika.
+>4112 Tysiąc Tybaltów. Śmierć Tybalta była
+<4112 Tybaltów. Śmierć była
+>4115 I gwałtem muszą mieć za sobą świtę,
+>4116 Dlaczegóż w ślad tych słów: Tybalt nie żyje!
+>4117 Nie nastąpiło: twój ojciec nie żyje
+<4115 I muszą mieć za sobą świtę,
+<4116 Dlaczegóż w ślad tych słów: Tybalt żyje!
+<4117 Nie nastąpiło: twój nie żyje
+>4122 O, jednocześnie z tym wykrzykiem Tybalt,
+<4122 O, z tym wykrzykiem Tybalt,
+>4126 Śmierć nie ma granic ni miary, ni końca
+<4126 Śmierć nie ma granic ni ni końca
+>4128 Jaką to straszne słowo w sobie mieści.
+<4128 Jaką to straszne słowo w mieści.
+>4134                          Przy zwłokach
+>4135 Tybalta jęczą i wylewają.
+<4134 Przy zwłokach
+<4135 Tybalta jęczą i łzy wylewają.
+>4144 Ty dzielisz z Romea małżonką:
+<4144 Ty zawód dzielisz z Romea małżonką:
+>4146 Bo on wygnany, Romeo wygnany!
+<4146 Bo on Romeo wygnany!
+>4155 Czekaj no, pójdę sprowadzić
+>4156 By cię pocieszył. on jest teraz.
+<4155 Czekaj no, pójdę sprowadzić Romea,
+<4156 By cię pocieszył. Wiem, gdzie on jest teraz.
+>4158 I twój Romeo wnet przed tobą stanie.
+<4158 I twój Romeo wnet tobą stanie.
+>4164 I na ostatnie go
+<4164 I na ostatnie proś go
+>4166 Wychodzą. /
+<4166 / Wychodzą. /
+<4184 ROMEO
+>4185 
+>4186 Cóż tam, cny ojcze? Jakiż wyrok
+<4186 Cóż tam, cny ojcze? Jakiż wyrok księcia?
+>4200 Jakiż by mógł być łaskawszy prócz śmierci?
+<4200 Jakiż by być łaskawszy prócz śmierci?
+>4203 OJCIEC
+<4203 OJCIEC LAURENTY
+>4228 Jest to śmierć ponieść; wygnanie jest zatem
+>4229 Śmiercią Mieniąc śmierć wygnaniem,
+<4228 to śmierć ponieść; wygnanie jest zatem
+<4229 Śmiercią barwioną. Mieniąc śmierć wygnaniem,
+>4231 Z uśmiechem patrząc na ten cios śmiertelny.
+<4231 Z uśmiechem patrząc ten cios śmiertelny.
+>4237 Błąd twój pociąga z prawa śmierć za sobą:
+>4238 Książę, ujmując się jednak za
+<4237 Błąd twój pociąga z śmierć za sobą:
+<4238 Książę, ujmując się jednak za tobą,
+>4241 �aska to, i ty tego nie uznajesz?
+<4241 to, i ty tego nie uznajesz?
+>4247 Gdzie Julia żyje; lada pies, kot, lada
+<4247 Julia żyje; lada pies, kot, lada
+>4251 Więcej ma mocy, więcej czci i szczęścia
+<4251 ma mocy, więcej czci i szczęścia
+>4258 mówisz, że wygnanie nie jest śmiercią?
+<4258 I mówisz, że wygnanie nie jest śmiercią?
+>4262 Wyraz — wygnanie? O księże, złe duchy
+<4262 Wyraz — wygnanie? O księże, duchy
+>4266 Pasy drzeć ze mnie tym słowem: wygnanie?
+<4266 Pasy drzeć ze mnie tym wygnanie?
+>4271 Stój, nierozumny szaleńcze, posłuchaj!
+<4271 nierozumny szaleńcze, posłuchaj!
+>4281 Dam ci broń przeciw temu wyrazowi;
+<4281 Dam ci broń przeciw temu
+>4290 Przestawić miasto? Zmienić wyrok
+<4290 Przestawić miasto? Zmienić wyrok księcia?
+>4296 Szaleni więc głuchymi, jak widzę.
+<4296 Szaleni są więc głuchymi, jak widzę.
+>4301 Jak mają nie być, gdy mądrzy nie widzą.
+<4301 Jak mają nie być, gdy nie widzą.
+>4311 Nie możesz mówić tam, gdzie nic nie czujesz.
+>4312 Bądź jak ja młodym, posiądź miłość Julii,
+>4313 Zaślub ją tylko co, zabij Tybalta,
+<4311 Nie możesz mówić tam, gdzie nic czujesz.
+<4312 Bądź jak ja młodym, posiądź Julii,
+<4313 Zaślub ją tylko zabij Tybalta,
+>4320 / rzuca się na /
+<4320 / rzuca się na ziemię /
+>4327 Cicho, ktoś puka; ukryj się, Romeo.
+<4327 Cicho, ktoś ukryj się, Romeo.
+>4333 Jak mgła, ukryje mię przed ludzkim wzrokiem.
+<4333 Jak mgła, mię przed ludzkim wzrokiem.
+>4338 OJCIEC
+<4338 OJCIEC LAURENTY
+>4345 Wnijdź do pracowni mojej. Zaraz, zaraz.
+>4346 Cóż to za upór!
+<4345 Wnijdź do pracowni Zaraz, zaraz.
+<4346 to za upór!
+>4351 Tak na gwałt puka? Skąd wy? Czego chcecie?
+<4351 na gwałt puka? Skąd wy? Czego chcecie?
+>4384 Smutne I ona tak leży
+>4385 Płacząc i łkając, szlochając i płacząc.
+<4384 zbliżenie! I ona tak leży
+<4385 Płacząc łkając, szlochając i płacząc.
+>4399 Kończy się śmiercią.
+<4399 Kończy się
+>4405 Cóż się z nią dzieje? O, pewnie mię ona
+<4405 Cóż się z dzieje? O, pewnie mię ona
+>4409 Gdzie ona? Jak się co mówi
+<4409 Gdzie ona? Jak się miewa i co mówi
+<4413 MARTA
+>4414 
+>4415 Nic, tylko i szlocha, i szlocha;
+<4415 Nic, tylko szlocha i szlocha, i szlocha;
+>4425 Miało ją zabić, tak jak krewnego
+<4425 Miało ją zabić, tak jak jej krewnego
+>4444 Tybaltaś zabił, chcesz sam siebie
+<4444 Tybaltaś zabił, chcesz zabić sam siebie
+>4448 Niebu i ziemi, skoro urodzenie,
+>4449 Niebo i ziemia ci się śmieją? się!
+<4448 Niebu ziemi, skoro urodzenie,
+<4449 Niebo i ziemia ci się śmieją? Wstydź się!
+>4451 Boś ty jak lichwiarz bogaty w to wszystko,
+>4452 Ale niczego nie używasz
+>4453 W sposób mogący te dary ozdobić.
+<4451 Boś ty jak bogaty w to wszystko,
+<4452 Ale tego nie używasz
+<4453 W mogący te dary ozdobić.
+>4455 Skoro nie z cnotą idzie w parze;
+<4455 Skoro nie z męską cnotą idzie w parze;
+>4457 Skoro chcesz zabić tę, którejś ją ślubił.
+<4457 Skoro chcesz tę, którejś ją ślubił.
+>4460 Jest jak proch w rożku płochego żołnierza,
+<4460 jak proch w rożku płochego żołnierza,
+>4463 Otrząś się, człeku! Julia twoja
+<4463 Otrząś się, człeku! Julia twoja żyje;
+>4465 W tymeś szczęśliwy. Tybalt chciał cię zabić,
+<4465 W tymeś szczęśliwy. Tybalt chciał cię
+>4467 Prawo, grożące ci śmiercią, zamienia
+<4467 grożące ci śmiercią, zamienia
+>4472 się na tę szczodrotę fortuny.
+>4473 Strzeż się, bo tacy marnie
+<4472 Dąsasz się na tę szczodrotę fortuny.
+<4473 Strzeż się, bo tacy marnie umierają.
+>4475 Wprzód umówione, i niebogę.
+>4476 Pomnij wyjść jednak przed wart rozstawieniem;
+<4475 Wprzód umówione, i pociesz niebogę.
+<4476 Pomnij jednak przed wart rozstawieniem;
+>4478 Gdzie masz przebywać tak długo, aż
+<4478 Gdzie masz przebywać tak długo, aż znajdziem
+>4488 przyjdzie niebawem.
+<4488 Romeo przyjdzie niebawem.
+>4501 Idź, proś ją, niech się gotuje mię zgromić.
+<4501 proś ją, niech gotuje mię zgromić.
+>4507 Doręczyć panu. Śpiesz się pan, już późno.
+<4507 Doręczyć panu. Śpiesz się pan, już
+>4525 na twoją korzyść tu się zdarzy.
+<4525 Jaki na twoją korzyść tu się zdarzy.
+>4532 Ten rozdział z byłby zbyt bolesny.
+<4532 Ten rozdział z tobą byłby zbyt bolesny.
+>4535 / Wychodzą. /
+<4535 Wychodzą. /
+>4541 / Pokój w domu Kapuletów. Wchodzą Kapulet, Pani Kapulet Parys. /
+<4541 / Pokój w domu Kapuletów. Wchodzą Kapulet, Pani Kapulet i Parys. /
+>4544 KAPULET
+<4545 
+>4547 Żeśmy nie mieli czasu mówić z Julią.
+<4547 nie mieli czasu mówić z Julią.
+>4550 Dziś ona już nie zejdzie, bo już późno.
+<4550 Dziś już nie zejdzie, bo już późno.
+>4557 Pora żałoby nie zalotom;
+<4557 Pora żałoby nie sprzyja zalotom;
+>4564 dziś zamknęła się, by żal swój spłakać.
+<4564 Na dziś zamknęła się, by żal swój spłakać.
+>4569 Hrabio, miłość naszego dziecięcia
+<4569 Hrabio, za miłość naszego dziecięcia
+>4586 Odłóżmy na czwartek; w ten więc czwartek
+>4587 żoną szlachetnego hrabi.
+<4586 Odłóżmy to na czwartek; w ten więc czwartek
+<4587 Zostanie żoną szlachetnego hrabi.
+>4589 Cicho się sprawim: jeden, dwóch przyjaciół…
+<4589 się sprawim: jeden, dwóch przyjaciół…
+>4593 Zgon tak bliskiego krewnego;
+>4594 Wezwiem przyjaciół z jakie pół tuzina
+<4593 Zgon tak bliskiego krewnego; dlatego
+<4594 Wezwiem przyjaciół jakie pół tuzina
+>4605 To dobrze. Bądź nam zdrów. A we czwartek.
+<4605 To dobrze. Bądź nam A więc we czwartek.
+>4608 Światła! hej! światła do mego pokoju!
+>4609 Tak już jest żebyśmy nieledwie
+<4608 Światła! hej! światła mego
+<4609 Tak już jest późno, żebyśmy nieledwie
+>4612 / Wychodzą. /
+<4612 / /
+>4616 SCENA
+<4616 SCENA PIĄTA
+>4618 / Pokój Julii. Wchodzą Romeo i Julia. /
+<4618 / Julii. Wchodzą Romeo i /
+>4624 Słowik to, a skowronek się zrywa
+>4625 I śpiewem przeszył trwożne ucho twoje.
+>4626 Co noc on śpiewa na gałązce
+<4624 Słowik to, a nie skowronek się zrywa
+<4625 I przeszył trwożne ucho twoje.
+<4626 noc on śpiewa owdzie na gałązce
+>4632 Skowronek to, ów herold ranku,
+<4632 Skowronek to, ów czujny herold ranku,
+>4635 Pochodnie nocy już wypaliły
+<4635 Pochodnie nocy już się wypaliły
+>4637 Chcąc żyć, iść muszę lub zostając — umrzeć.
+<4637 Chcąc iść muszę lub zostając — umrzeć.
+>4646 Zostań więc, nie masz potrzeby się śpieszyć.
+<4646 więc, nie masz potrzeby się śpieszyć.
+>4651 Niech mię schwytają, na śmierć zaprowadzą,
+<4651 Niech mię schwytają, na śmierć
+>4653 Nie, ten brzask nie zapowiedzią ranka,
+>4654 To tylko blady odblask lica luny;
+<4653 ten brzask nie jest zapowiedzią ranka,
+<4654 To tylko blady odblask luny;
+>4658 Niż nagle odejść. O śmierci, przybywaj!
+>4659 Chętnie cię przyjmę, bo Julia chce tego.
+<4658 Niż nagle odejść. śmierci, przybywaj!
+<4659 Chętnie cię przyjmę, Julia chce tego.
+>4667 I niestrojnymi, dźwiękami
+>4668 Razi me ucho. Mówią, skowronek
+<4667 I niestrojnymi, ostrymi dźwiękami
+<4668 Razi me ucho. Mówią, że skowronek
+>4675 przywołując, odwołuje ciebie.
+>4676 Idź już, idź: ciemność coraz to się zmniejsza.
+<4675 Dzień przywołując, odwołuje ciebie.
+<4676 Idź już, ciemność coraz to się zmniejsza.
+>4693                          Co?
+<4693 Co?
+>4699 Dzień świta: baczność, bo się narazicie.
+<4699 Dzień świta: baczność, bo się
+>4701 / wychodzi /
+<4701 / /
+>4718 Już idziesz; o mój drogi! mój
+>4719 mieć co dzień wiadomość o tobie;
+<4718 Już idziesz; o mój drogi! mój milutki!
+<4719 Muszę mieć co dzień wiadomość o tobie;
+>4730 / znika za /
+<4730 / znika za oknem
+>4735 Jak myślisz, się ujrzymy kiedy?
+<4735 Jak myślisz, czy się znów ujrzymy kiedy?
+>4740 Nie wątpię o tym, a
+>4741 Wszystkie cierpienia nasze kwiatem tkaną
+<4740 Nie wątpię o tym, a wtedy
+<4741 Wszystkie nasze kwiatem tkaną
+>4749 Jak trup, z którego znikły życia ślady.
+<4749 Jak trup, z którego życia ślady.
+>4756 Smutek nas trawi. Bądź zdrowa! bądź zdrowa!
+<4756 Smutek nas Bądź zdrowa! bądź zdrowa!
+>4765 Tych, co kochają stale? Bądź niestały,
+<4765 Tych, co kochają Bądź niestały,
+>4767 go niedługo będziesz zatrzymywał
+>4768 I nazad.
+<4767 Że go niedługo będziesz zatrzymywał
+<4768 I wrócisz nazad.
+>4781 Nie spałaż czy wstała tak rano?
+<4781 Nie spałaż ona czy wstała tak rano?
+>4800 Chcesz–że go łzami dobyć z grobu? Choćbyś
+>4801 tego, wskrzesić go nie zdołasz.
+<4800 Chcesz–że go łzami dobyć z grobu?
+<4801 Dopięła tego, wskrzesić go nie zdołasz.
+>4803 Wielkiej miłości, ale wielkość żalu
+<4803 Wielkiej miłości, ale żalu
+>4812 PANI KAPULET
+<4812 KAPULET
+>4815 Nie tego, po kim płaczesz, moje dziecko.
+<4815 Nie tego, po kim moje dziecko.
+>4846 / głośno /
+<4846 / głośno
+>4850 Który by bardziej mi na sercu.
+<4850 Który by bardziej ciężył mi na sercu.
+>4858 JULIA
+<4859 
+>4868 ten wygnany renegat się schronił,
+<4868 Gdzie ten wygnany renegat się schronił,
+>4876 Nie zaspokoi mnie Romeo
+>4877 Dopóki tylko żyć będzie; tak silnie
+>4878 Boleść po krewnym rozjątrza mi serce.
+<4876 Nie zaspokoi mnie Romeo nigdy,
+<4877 Dopóki tylko żyć tak silnie
+<4878 Boleść krewnym rozjątrza mi serce.
+>4886 Dać odwet na tym, co go zamordował.
+<4886 Dać na tym, co go zamordował.
+>4889 PANI KAPULET
+<4889 PANI
+>4900 Jakaż tych nowin treść, kochana matko?
+<4900 Jakaż tych nowin treść, matko?
+>4908 Tak dla cię, jak i dla mnie niespodzianą.
+<4908 Tak dla cię, jak i mnie niespodzianą.
+>4918 Ta, nie inna, że w ten czwartek z rana
+<4918 Ta, a nie inna, że w ten czwartek z rana
+<4924 JULIA
+>4925 
+>4928 Nigdy on, nigdy tego nie
+<4928 Nigdy on, nigdy tego uczyni!
+>4931 Starać się o mnie, nim mi się dał poznać?
+<4931 Starać o mnie, nim mi się dał poznać?
+>4933 Że jeszcze nie chcę iść za a gdybym
+<4933 Że jeszcze nie chcę iść mąż, a gdybym
+>4936 Jest mi z całego serca nienawistny,
+<4936 Jest mi z całego serca
+>4945 Zobaczym, on przyjmie twą odpowiedź.
+<4945 Zobaczym, jak on przyjmie twą odpowiedź.
+>4951 Ale po skonie naszego krewnego
+<4951 Ale po skonie naszego
+>4956 Bo twoje oczy, jakby morze,
+>4957 Falują łzami: twoje ciało
+<4956 Bo twoje oczy, jakby morze, ciągle
+<4957 Falują łzami: biedne twoje ciało
+>4968 Tak, ale nie chce i dziękuje za nie,
+<4968 Tak, ale nie chce i dziękuje nie,
+>4976 Nie poczytuje sobie za szczyt
+<4976 Nie poczytuje sobie za szczyt szczęścia,
+>4984 Pyszna, zaiste, nie mogę być z
+<4984 Pyszna, nie mogę być z tego,
+>4991 Cóż znów? cóż to? Logika w spódnicy!
+<4991 Cóż to znów? cóż to? Logika w spódnicy!
+>5009 Błagam cię, ojcze, na klęczkach cię
+<5009 Błagam cię, ojcze, na klęczkach cię błagam,
+>5018 Na oczy mi się więcej nie pokazuj.
+>5019 Nic nie mów ani piśnij, ani
+<5018 Na oczy mi się nie pokazuj.
+<5019 Nic nie ani piśnij, ani trunij:
+>5024 I że w niej mamy bicz boży. Precz, plucho!
+<5024 I że w niej mamy bicz Precz, plucho!
+>5028 MARTA
+<5029 
+>5031 Jegomość grzeszy, tak fukając na nią.
+<5031 Jegomość grzeszy, fukając na nią.
+>5037 Idź–że pytlować gębą z kumoszkami.
+<5037 Idź–że pytlować z kumoszkami.
+>5058 Schowaj swój rozum na babskie sejmiki.
+<5058 Schowaj swój na babskie sejmiki.
+>5072 Ciągle i ciągle ot, tylko
+<5072 Ciągle i ciągle ot, rozmyślam tylko
+>5087 Czwartek za pasem; przyłóż dłoń serca;
+<5087 Czwartek za pasem; przyłóż dłoń do serca;
+>5089 Znajdziesz dobrego we mnie
+>5090 A nie, to marniej, jęcz, mrzej pod płotem;
+<5089 Znajdziesz we mnie przyjaciela,
+<5090 A to marniej, żebrz, jęcz, mrzej pod płotem;
+>5094 Możesz się to spuścić, jestem słowny.
+<5094 Możesz się na to spuścić, jestem słowny.
+>5101 Nie masz litości w niebie, która widzi
+<5101 Nie masz litości w która widzi
+>5103 Ty mię przynajmniej nie odpychaj,
+>5104 Zwlecz to małżeństwo na miesiąc, na tydzień
+<5103 Ty mię przynajmniej nie odpychaj, matko!
+<5104 Zwlecz to małżeństwo na miesiąc, tydzień
+>5112 Rób, co chcesz, mi to obojętne.
+<5112 Rób, co chcesz, wszystko mi to obojętne.
+>5123 Nim mój mąż sam mi ją powróci z nieba
+<5123 Nim mój mąż sam mi powróci z nieba
+>5128 Na to lekarstwa?
+<5128 to lekarstwa?
+>5135 Można iść w zakład, że cię już nie przyjdzie
+<5135 iść w zakład, że cię już nie przyjdzie
+>5138 nic lepszego nie masz do zrobienia
+<5138 Że nic lepszego nie masz do zrobienia
+>5140 Co się nazywa, przystojny
+<5140 Co się nazywa, przystojny mężczyzna.
+>5148 Tak jakby nie żył; przynajmniej dla ciebie,
+<5148 Tak jakby nie przynajmniej dla ciebie,
+>5176 Bardzoś mi to dodała otuchy,
+>5177 Idź–że i powiedz teraz mojej
+<5176 Bardzoś mi przez to dodała otuchy,
+<5177 Idź–że i powiedz teraz mojej matce,
+>5179 do celi ojca Laurentego
+>5180 Odprawić spowiedź wziąć rozgrzeszenie.
+<5179 Poszłam do celi ojca Laurentego
+<5180 Odprawić spowiedź i rozgrzeszenie.
+<5183 MARTA
+>5184 
+>5195 Czy lżyć małżonka tymiż usty,
+<5195 lżyć małżonka mego tymiż usty,
+>5198 Serce me zamknięte dla ciebie.
+>5199 Pójdę poprosić ojca Laurentego,
+<5198 Serce me odtąd zamknięte dla ciebie.
+<5199 Pójdę poprosić ojca
+>5201 Na tę przeciwność nie sposobu,
+<5201 Na tę przeciwność nie będzie sposobu,
+>5215 / Ojca Laurentego. Ojciec Laurenty i Parys. /
+<5215 / Cela Ojca Laurentego. Ojciec Laurenty i Parys. /
+>5225 Mój teść, Kapulet, życzy sobie tego;
+<5225 Mój teść, Kapulet, życzy tego;
+>5231 Nie znasz pan, mówisz, uczuć swojej przyszłej;
+<5231 Nie znasz pan, mówisz, uczuć przyszłej;
+>5238 Małom przeto mówił o miłości,
+<5238 Małom jej przeto o miłości,
+>5242 W mądrości swojej przyśpiesza nasz związek,
+>5243 By zatamować źródło tych łez, które
+<5242 W mądrości swojej przyśpiesza nasz
+<5243 By zatamować źródło tych łez,
+>5267 JULIA
+<5268 
+>5294 Mówiąc to, panu bym się
+<5294 Mówiąc to, panu się spowiadała.
+>5309 Wyznasz mi tuszę, że mnie kochasz.
+<5309 Wyznasz mi także, tuszę, że mnie kochasz.
+>5320 Biedna! łzy bardzo twarz twą
+<5320 Biedna! łzy bardzo twarz twą oszpeciły.
+>5325 Niewielkie przez odniosły zwycięstwo;
+<5325 Niewielkie przez to odniosły
+>5336 Nie jest to krzywda, panie, ale prawda,
+<5336 Nie jest krzywda, panie, ale prawda,
+>5343 mnie należy, a ty jej uwłaczasz.
+<5343 Do mnie należy, a ty jej uwłaczasz.
+>5356 Racz, panie hrabio, zostawić nas samych.
+<5356 Racz, hrabio, zostawić nas samych.
+>5364 I pobożne to pocałowanie.
+<5364 I przyjm pobożne to pocałowanie.
+>5379 Nabawia prawie odurzenia,
+<5379 Nabawia ona prawie odurzenia,
+>5381 Że w przyszły czwartek wziąć masz ślub z tym hrabią
+<5381 Że przyszły czwartek wziąć masz ślub z hrabią
+>5389 Żadnego na to środka, to przynajmniej
+>5390 Postanowienie nazwij mądrym,
+>5391 A w tym zaraz znajdę środek.
+<5389 Żadnego na to środka, to
+<5390 Postanowienie moje nazwij mądrym,
+<5391 A w tym sztylecie zaraz znajdę środek.
+>5393 Ty dłonie; i nim ta dłoń, świętą
+<5393 Ty nasze dłonie; i nim ta dłoń, świętą
+>5396 W zdradzieckim buncie odda się innemu,
+<5396 W zdradzieckim buncie się innemu,
+>5398 Daj mi jaką radę, zaczerpniętą
+<5398 Daj mi więc jaką radę, zaczerpniętą
+>5406 mi powiesz, że nie ma sposobu.
+<5406 Jeśli powiesz, że nie ma sposobu.
+>5411 Stój, córko! Mam ja w myśli pewien środek,
+>5412 Wymagający równie
+>5413 Determinacji, jak jest
+<5411 Stój, córko! Mam ja w myśli pewien
+<5412 Wymagający równie rozpaczliwej
+<5413 Determinacji, jak jest rozpaczliwe
+>5421 Masz–li odwagę, wskażę ten środek.
+<5421 Masz–li odwagę, toć wskażę ten środek.
+>5433 Każ mi wejść żywcem w grób świeżo
+>5434 I w jeden całun z trupem się obwinąć;
+<5433 Każ mi wejść żywcem w grób świeżo kopany
+<5434 I w jeden całun z trupem obwinąć;
+>5436 Ale bez trwogi uczynię zaraz,
+>5437 Bylebym tylko czystą
+>5438 Małżonką mego lubego kochanka.
+<5436 Ale bez trwogi uczynię to zaraz,
+<5437 tylko pozostała czystą
+<5438 Małżonką lubego kochanka.
+>5441 OJCIEC LAURENTY
+<5441 OJCIEC
+>5443 Słuchaj więc; idź do bądź wesoła,
+>5444 Przystań na związek z hrabią. środa;
+<5443 Słuchaj więc; idź do domu, bądź wesoła,
+<5444 Przystań na związek z Jutro środa;
+>5451 Wszelką żywotną wszystkie pulsa
+<5451 Wszelką żywotną funkcją; wszystkie pulsa
+>5456 Jak gdy dłoń śmierci zakrywa dzień życia;
+<5456 gdy dłoń śmierci zakrywa dzień życia;
+>5459 I w tym pozornym stanie śmierci
+<5459 I w tym pozornym stanie nagłej śmierci
+>5461 Wtedy się ockniesz jak ze snu błogiego.
+>5462 Gdy więc nazajutrz z rana narzeczony
+<5461 Wtedy ockniesz jak ze snu błogiego.
+<5462 Gdy więc nazajutrz rana narzeczony
+>5468 tymczasem przeze mnie
+<5468 Uwiadomiony tymczasem przeze mnie
+>5480 O, daj mi, daj mi! nie mów o bojaźni!
+<5480 daj mi, daj mi! nie mów o bojaźni!
+>5488 Z do twego męża.
+<5488 Z listem do twego męża.
+>5494 Ty bądź bodźcem, a hasłem Romeo!
+>5495 Bądź zdrów, ojcze!
+<5494 Ty mi bądź bodźcem, a hasłem
+<5495 Bądź zdrów, mój ojcze!
+>5503 / Pokój w domu Kapuletów. Wchodzą Kapulet, Pani Kapulet, Marta słudzy. /
+<5503 / Pokój w domu Kapuletów. Wchodzą Kapulet, Pani Kapulet, Marta i słudzy. /
+>5510 Proś te tu są spisane.
+<5510 Proś te osoby, co tu są spisane.
+>5517 DRUGI
+<5517 DRUGI S�UŻĄCY
+>5527 DRUGI
+<5527 DRUGI S�UŻĄCY
+>5529 Zły to kucharz, jaśnie co nie oblizuje sobie palców, o którym się więc przekonam, że tego nie umie, tego nie sprowadzę.
+<5529 Zły to kucharz, jaśnie panie, co nie oblizuje sobie palców, o którym się więc przekonam, że tego nie tego nie
+>5538 Wątpię, wszystko na czas wygotujem.
+<5538 Wątpię, czy wszystko na czas wygotujem.
+>5545                          Poszła, panie.
+<5545 Poszła, panie.
+>5550 To może on co dla niej wskóra.
+<5550 To dobrze; może on co dla niej wskóra.
+>5558 Patrz pan, jak raźnie wraca od spowiedzi.
+<5558 Patrz pan, jak wraca od spowiedzi.
+>5571 Kapłan Laurenty kazał mi się
+<5571 Kapłan Laurenty kazał mi się rzucić
+>5586 Nie przekraczając granicy skromności.
+<5586 Nie granicy skromności.
+>5625                          Nie troszcz się; dojrzę wszystkiego
+<5625                          troszcz się; dojrzę wszystkiego
+>5627 Idź do pomóż jej się przebrać.
+<5627 Idź do Juleczki, pomóż jej się przebrać.
+>5630 Hej, służba! to? wszyscy się rozeszli?
+>5631 Mniejsza z tym, pójdę sam hrabię
+<5630 Hej, służba! Cóż to? wszyscy się rozeszli?
+<5631 Mniejsza z tym, pójdę sam hrabię uprzedzić
+>5646 Tak, ten strój wezmę. Ale, złota nianiu,
+<5646 Tak, ten strój Ale, złota nianiu,
+>5650 Nad moim stanem, jak wiesz, pełnym grzechu.
+<5650 moim stanem, jak wiesz, pełnym
+>5652 / Wchodzi Kapulet. /
+<5652 / Wchodzi Pani Kapulet. /
+>5665 I niechaj Marta spędzi tę noc z
+<5665 I niechaj Marta spędzi tę noc z tobą.
+>5672                         
+<5672                          Dobranoc!
+>5675 Wychodzą Pani Kapulet i Marta. /
+<5675 / Wychodzą Pani Kapulet i Marta. /
+>5680 wie, kiedy się zobaczym.
+<5680 Dobranoc! Bóg wie, kiedy się zobaczym.
+>5683 Zawołam na nie, by pokrzepiły;
+<5683 Zawołam na nie, by mnie pokrzepiły;
+>5696 Którą pierwej zaślubił z kim innym?
+<5696 Którą już pierwej zaślubił z kim innym?
+>5698 Bo świętość jest wypróbowana,
+>5699 I nawet myśli tej nie chcę przypuszczać.
+<5698 Bo jego świętość jest wypróbowana,
+<5699 I nawet tej nie chcę przypuszczać.
+>5705 I nie umarłażbym wprzód, nim Romeo
+<5705 I nie umarłażbym wprzód, nim
+>5707 Czyliżby straszny wpływ nocy i
+>5708 Którą dokoła będę otoczona,
+<5707 Czyliżby straszny wpływ nocy i śmierci,
+<5708 Którą dokoła otoczona,
+>5710 Samaż miejscowość tego
+>5711 Starożytnego lochu, w kości
+<5710 Samaż miejscowość tego sklepionego
+<5711 Starożytnego lochu, w którym kości
+>5713 Nagromadzone leżą, kędy świeżo
+<5713 Nagromadzone leżą, kędy
+>5715 I kędy nocą, pewnych godzinach,
+<5715 I kędy nocą, o pewnych godzinach,
+>5717 Niestety! czyliżby prawdopodobnie
+<5717 Niestety! czyliżby
+>5720 tego, jaki wydaje ów korzeń
+<5720 Do tego, jaki wydaje ów korzeń
+>5723 Czyliżby wszystko to, w ocknienia
+<5723 Czyliżby wszystko to, w razie
+>5726 Z kośćmi mych przodków? nie się pieścić
+<5726 Z kośćmi mych przodków? poszła się pieścić
+>5728 Nie rozbiłażbym sobie rozpaczliwie
+<5728 Nie rozbiłażbym sobie
+>5731 Że duch Tybalta widzę ścigający
+<5731 duch Tybalta widzę ścigający
+>5733 Stój! stój, Tybalcie!
+<5733 Stój! stój,
+>5738 Spełniam toast zbawienia lub zguby.
+<5738 Spełniam ten toast zbawienia lub zguby.
+>5746 / Sala w domu Kapuletów. Wchodzą Pani Kapulet i Marta. /
+<5746 / w domu Kapuletów. Wchodzą Pani Kapulet i Marta. /
+>5756 Piekarz o pigwy woła i daktyle.
+<5756 Piekarz pigwy woła i daktyle.
+>5770 Co to za Idź–że się pan przespać.
+<5770 Co to za wścibstwo? Idź–że się pan przespać.
+>5777                          Ani krzty! Do licha!
+<5777                          Ani krzty! Do
+>5785 czasu myszkować; lecz teraz
+<5785 Swojego czasu myszkować; lecz teraz
+>5795 / Wchodzą słudzy z rożnami, koszami i drzewem. /
+<5795 / Wchodzą z rożnami, koszami i drzewem. /
+>5802 Rzeczy do kuchni, ale nie jakie.
+<5802 Rzeczy do kuchni, ale nie wiem jakie.
+>5812 ci kloc wskaże po temu.
+<5812 Piotr ci kloc wskaże po temu.
+>5818 O kloca idzie, to dość mnie samego;
+<5818 O kloca idzie, to mnie samego;
+>5821 / wychodzi
+<5821 / wychodzi /
+>5838 Idź, Julkę, ubierz ją co żywo.
+<5838 obudź Julkę, ubierz ją co żywo.
+>5849 / Pokój Julii. Julia w łóżku. Wchodzi Marta. /
+<5849 / Julii. Julia w łóżku. Wchodzi Marta. /
+>5854 Panienko! Jak się to zaspało!
+>5855 Wstawaj gołąbku! Wstawaj! się, śpiochu!
+>5856 Panienko! duszko! rybko! Ani
+>5857 Chcesz, widzę, wyspać się za cały tydzień.
+>5858 Jakbyś wiedziała, że ci hrabia Parys
+>5859 Następnej nocy nie da oka zmrużyć.
+>5860 Odpuść mi, Panie, amen! Jak śpi smacznie!
+<5854 Panienko! Julciu! Jak się to zaspało!
+<5855 gołąbku! Wstawaj! Wstydź śpiochu!
+<5856 Panienko! duszko! rybko! Ani mrumru!
+<5857 Chcesz, widzę, wyspać się za tydzień.
+<5858 Jakbyś że ci hrabia Parys
+<5859 Następnej nocy nie oka zmrużyć.
+<5860 Odpuść Panie, amen! Jak śpi smacznie!
+>5863 To się dopiero zerwiesz. Cóż to? w sukni?
+>5864 Jużeś i znów się pokładłaś?
+<5863 To dopiero Cóż to? w sukni?
+<5864 Jużeś ubrana i znów się pokładłaś?
+>5866 Ha! przez Bóg żywy! Na pomoc! na
+<5866 Ha! przez Bóg Na pomoc! na pomoc!
+>5881 O dniu niefortunny!
+<5881                          O dniu niefortunny!
+>5886 Mów, co się stało?
+<5886 Mów, co stało?
+>5923 Puśćcie mię, niech zobaczę… Jak lód zimna;
+<5923 Puśćcie mię, niech zobaczę… Jak lód
+>5925 Dawno już życie z tych ust uleciało.
+<5925 Dawno już życie z tych uleciało.
+>5943 Głos mi tamuje i zamyka usta.
+<5943 Głos mi i zamyka
+>5959 Patrz, oto leży kwiat w jej uścisku.
+<5959 Patrz, oto leży ten kwiat w uścisku.
+>5978 I tę zabiera śmierć nielitościwa!
+<5978 tę zabiera nielitościwa!
+>5987 Nie nigdy jeszcze dnia takiego.
+<5987 Nie było nigdy dnia
+>5993 Okrutna, sroga świętokradzka śmierci!
+<5993 Okrutna, sroga świętokradzka
+>5996 Julio! luba! życie! już nie życie.
+<5996 O Julio! luba! życie! już nie życie.
+>6002 Zawistny, twardy, zbójczy losie!
+<6002 Zawistny, twardy, niecny, zbójczy losie!
+>6006 moje dziecko, bo dziecko jest trupem;
+<6006 Nie moje dziecko, bo dziecko jest trupem;
+>6008 Cały wdzięk życia stał się śmierci łupem!
+<6008 Cały wdzięk życia stał śmierci łupem!
+>6015 Zarówno nieba, jak i waszą, niebo
+>6016 Zabrało swoją część; tym lepiej dla niej,
+<6015 nieba, jak i waszą, niebo
+<6016 Zabrało swoją tym lepiej dla niej,
+>6019 Niebo zachowa w życiu.
+<6019 Niebo zachowa w wiekuistym życiu.
+>6021 Życzeń i dążeń. W nim zakładaliście
+<6021 Życzeń i dążeń. W nim
+>6026 Kiedy tym, których jest dobrze.
+>6027 Nie ta dziewica dobrze za mąż,
+<6026 Kiedy tym, których kochamy, jest dobrze.
+<6027 Nie ta dziewica dobrze poszła za mąż,
+>6029 Lecz ta, co młodo zamężną umiera.
+<6029 Lecz ta, młodo zamężną umiera.
+>6031 To piękne ciało liśćmi
+<6031 To piękne ciało liśćmi rozmarynu,
+>6042 Weselna uczta zamieni się w stypę,
+>6043 Dźwięk strun w jęk pieśni smętne treny,
+<6042 Weselna uczta zamieni w stypę,
+<6043 Dźwięk strun w jęk dzwonów, pieśni w smętne treny,
+>6045 Słowem, wszystko się w opak
+<6045 Słowem, wszystko się w opak przeistoczy.
+>6050 Wyjdźcie stąd, państwo, i hrabio, także.
+<6050 Wyjdźcie stąd, państwo, i ty, hrabio, także.
+>6053 Snadź niebo na o coś zagniewane;
+<6053 Snadź niebo na was o coś zagniewane;
+>6075 / Wchodzi Piotr. /
+<6075 Wchodzi Piotr. /
+>6120 brzęczącą monetą, jak mi Bóg miły! ale bitą monetą; monetą godną rzępołów.
+<6120 Nie brzęczącą monetą, jak mi Bóg miły! ale bitą monetą; monetą godną rzępołów.
+>6130 ja wam lokajską klingą zagram po brzuchu.
+<6130 Wprzód ja wam lokajską klingą zagram po brzuchu.
+>6135 Schowaj, waćpan, swój rożen, a wydobądź lepiej swój dowcip.
+<6135 Schowaj, waćpan, swój rożen, a wydobądź lepiej dowcip.
+>6140 Strzeżcie się ostrza mego dowcipu, bo was przeszyje na wylot. Baczność!
+<6140 Strzeżcie się ostrza mego dowcipu, was przeszyje na wylot. Baczność!
+>6142 / śpiewa /
+<6142 / /
+>6147 Muzyki srebrny dźwięk…
+<6147 Muzyki srebrny
+>6149 Dlaczego srebrny dźwięk? Dlaczego muzyki srebrny Cóż waść na to, mości Barania Kiszko?
+<6149 Dlaczego srebrny dźwięk? muzyki srebrny dźwięk? Cóż waść na to, mości Barania Kiszko?
+>6179 O, przepraszam, zapomniałem, jesteś śpiewakiem. to ja powiem za ciebie: „Muzyki srebrny dźwięk” mówi się dlatego, że muzykanci rzadko kiedy złoto za muzykę dostają.
+<6179 O, przepraszam, zapomniałem, że jesteś śpiewakiem. No, to ja powiem za ciebie: „Muzyki srebrny dźwięk” mówi się dlatego, że muzykanci kiedy złoto za muzykę dostają.
+>6194 go kaci! Zejdźmy tam na dół wmieszać się między orszak żałobny i czekać, rychło co spadnie z półmiska.
+<6194 Pal go kaci! Zejdźmy tam na dół wmieszać się między orszak żałobny i czekać, rychło co spadnie z półmiska.
+>6212 Jeżeli można sennym wróżbom,
+<6212 Jeżeli można ufać sennym wróżbom,
+>6221 Tyle tchu wlała martwe moje usta,
+<6221 Tyle tchu wlała w martwe moje usta,
+>6226 / Wchodzi Baltazar.
+<6226 / Wchodzi Baltazar. /
+>6228 Wieści z Werony! - Cóż tam, Baltazarze?
+>6229 Czy mi przynosisz list od Laurentego?
+>6230 Co Julia? zdrów jest mój ojciec?
+>6231 Jak się ma Julia? Po raz drugi pytam.
+>6232 Bo nie ma złego, jeśli jej jest dobrze.
+<6228 z Werony! Cóż tam, Baltazarze?
+<6229 mi przynosisz list od Laurentego?
+<6230 Co robi Julia? Czy zdrów jest mój ojciec?
+<6231 Jak się ma Julia? Po raz pytam.
+<6232 nie ma złego, jeśli jej jest dobrze.
+>6237 Wszystko więc dobrze, bo jej już źle nie jest;
+<6237 Wszystko więc dobrze, bo jej już źle jest;
+>6244 Pana wszystkim byłem w obowiązku.
+<6244 Pana o wszystkim byłem w obowiązku.
+>6265 Mylisz zostaw mię, zrób, com rozkazał.
+<6265 Mylisz się; zostaw mię, zrób, com rozkazał.
+>6276 Mniejsza o to. Idź zamówić konie;
+<6276 Mniejsza więc o to. Idź zamówić konie;
+>6279 / Wychodzi /
+<6279 / Wychodzi Baltazar. /
+>6285 Gdzieś niedaleko mieszka aptekarz:
+<6285 Gdzieś niedaleko stąd mieszka aptekarz:
+>6291 aligator obok szczątków
+<6291 Wypchany aligator obok szczątków
+>6294 Próżnych flasz, słojów, zielonych
+<6294 Próżnych flasz, słojów, zielonych czerepów,
+>6297 Na widok tego pomyślałem
+<6297 Na widok tego pomyślałem sobie:
+>6303 w niej dziś jestem i tenże sam człowiek
+>6304 Z potrzeby będzie musiał jej zaradzić.
+<6303 Sam w niej dziś jestem i tenże sam człowiek
+<6304 Z potrzeby będzie musiał zaradzić.
+>6314                          Któż to woła
+<6314                          Któż to woła takim
+>6321 Widzę, że jesteś w niezamożnym stanie;
+<6321 Widzę, że jesteś w stanie;
+>6324 Po wszystkich żyłach rozejść się od razu
+>6325 nienawistne życie odjąć temu,
+>6326 Co zażyje; co by tak gwałtownie
+<6324 Po wszystkich rozejść się od razu
+<6325 I nienawistne życie odjąć temu,
+<6326 Co jej zażyje; co by tak gwałtownie
+>6328 Lontem dotknięty wypędza pocisk
+<6328 dotknięty proch wypędza pocisk
+>6334                          Mam ja taki środek;
+<6334                          Mam ja środek;
+>6336 Każdego, co się waży go
+<6336 Każdego, co się waży go udzielić.
+>6346 Bo świat nie dajeć prawa być bogatym;
+<6346 Bo nie dajeć prawa być bogatym;
+>6362 Weź pan to, rozczyń w jakimkolwiek płynie
+>6363 I płyn ten wypij, a choćbyś miał siłę
+>6364 Dwudziestu ludzi, wnet wyzioniesz ducha!
+<6362 Weź pan to, w jakimkolwiek płynie
+<6363 I płyn wypij, a choćbyś miał siłę
+<6364 Dwudziestu ludzi, wnet ducha!
+>6372 owe marne preparata, których
+<6372 Niż owe marne preparata, których
+>6375 zdrów: kup strawy i odziej się w mięso.
+<6375 Bądź zdrów: kup strawy i odziej się w mięso.
+>6377 U grobu Julii, bo tam cię mam użyć.
+<6377 U grobu bo tam cię użyć.
+>6379 / Rozchodzą się. /
+<6379 / się. /
+>6397 Toć nie czyj inny głos, jak brata Jana.
+<6397 Toć nie czyj inny głos, jak brata
+>6399 / otwiera drzwi /
+<6399 / otwiera drzwi
+>6402 Ustną odpowiedź jego czy na
+<6402 Ustną odpowiedź jego czy na piśmie?
+>6410 Naszej reguły, który miał iść ze mną
+>6411 I był przy chorym, poszedłem na miasto
+>6412 I jużem znalazł go, miejscy pachołcy
+>6413 Podejrzewając, żeśmy byli w
+<6410 Naszej reguły, który miał ze mną
+<6411 I był przy poszedłem na miasto
+<6412 I jużem go, miejscy pachołcy
+<6413 Podejrzewając, żeśmy byli w domu
+>6421 Któż tedy zaniósł mój list do Romea?
+<6421 Któż zaniósł mój do Romea?
+>6427 go posłać do Mantui, ani
+<6427 Ani go posłać do Mantui, ani
+>6433 Nieszczęsny trafie! ten list był ważny!
+<6433 trafie! ten list był tak ważny!
+>6440 JAN
+<6440 BRAT JAN
+>6445 OJCIEC LAURENTY
+<6445 LAURENTY
+>6447 Muszę czym prędzej spieszyć do grobowca.
+<6447 Muszę czym prędzej spieszyć grobowca.
+>6452 I tu ją skryję do jego przybycia.
+<6452 I tu skryję do jego przybycia.
+>6459 SCENA TRZECIA
+<6459 SCENA
+>6461 / Cmentarz, na nim grobowiec rodziny Wchodzi Parys z Paziem, niosącym kwiaty i pochodnię. /
+<6461 / Cmentarz, na nim grobowiec rodziny Kapuletów. Parys z Paziem, niosącym kwiaty i pochodnię. /
+>6466 Daj mi pochodnię, chłopcze, i idź z Bogiem,
+<6466 Daj mi pochodnię, chłopcze, i z Bogiem,
+>6469 I ucho przyłóż do ziemi, a skoro
+<6469 I ucho przyłóż do ziemi, a
+>6472 Wtedy zagwizdnij na znak, że idzie.
+>6473 Daj mi te Idź, zrób, jakem kazał.
+<6472 Wtedy zagwizdnij na znak, że ktoś idzie.
+<6473 te kwiaty. Idź, zrób, jakem kazał.
+>6478 Straszno mi będzie pozostać
+<6478 Straszno mi będzie pozostać samemu
+>6488 Twym są, niestety, głazy i
+<6488 Twym są, niestety, głazy i proch marny,
+>6492 Kwiat będę i łzy ronił.
+<6492 Kwiat będę sypał i gorzkie łzy ronił.
+>6498 ten żałobny mój przerywać obrzęd?
+>6499 Z nawet! Odstąpmy na chwilę.
+<6498 I ten żałobny mój przerywać obrzęd?
+<6499 Z pochodnią nawet! Odstąpmy na chwilę.
+>6501 / Oddala się. Wchodzi Romeo i Baltazar z pochodnią, oskardem itp. /
+<6501 / Oddala Wchodzi Romeo i Baltazar z pochodnią, oskardem itp. /
+>6506 mi i drąg. Weź to pismo;
+<6506 Podaj mi oskard i drąg. Weź to pismo;
+>6508 no pochodnię. Co bądź tu usłyszysz
+<6508 Daj no pochodnię. Co bądź tu
+>6517 Idź więc, zastosuj się do moich życzeń.
+<6517 więc, zastosuj się do moich życzeń.
+>6519 Wrócił podglądać dalsze moje kroki,
+>6520 Na kości bym ci roztrząsł
+<6519 Wrócił dalsze moje kroki,
+<6520 Na Boga, wszystkie kości bym ci roztrząsł
+>6523 Niepowstrzymaniej i
+<6523 Niepowstrzymaniej i nieubłaganiej
+>6543 Bo mu zły jakiś zamiar patrzy z oczu.
+<6543 Bo mu zły jakiś patrzy z oczu.
+>6545 / oddala /
+<6545 / oddala się /
+>6551 Tuczne najdroższym tej ziemi szczątkiem,
+>6552 Otwórz mi swoją zardzewiałą paszczę,
+<6551 Tuczne najdroższym na tej ziemi szczątkiem,
+<6552 Otwórz mi zardzewiałą paszczę,
+>6563 I on tu przyszedł knuć jeszcze
+<6563 I on tu przyszedł knuć jeszcze zamachy
+>6569 Możeż się zemsta aż za grób rozciągać?
+<6569 Możeż się zemsta za grób rozciągać?
+>6576 Muszę, zaprawdę, i po tom tu przyszedł.
+<6576 Muszę, po tom tu przyszedł.
+>6579 I zadrżyj. Błagam cię na wszystkie względy,
+<6579 I Błagam cię na wszystkie względy,
+>6603 O nieba! biją biegnę po wartę.
+<6603 O nieba! biją się, biegnę po wartę.
+>6605 wychodzi /
+<6605 / wychodzi /
+>6615 / umiera /
+<6615 / umiera
+>6620 Stanieć się zadość. Lecz któż to jest taki?
+<6620 Stanieć się zadość. Lecz któż to taki?
+>6622 Cóż mi w drodze prawił mój służący?
+<6622 to mi w drodze prawił mój służący?
+>6624 Uwagi na to nie zwróciła; Parys,
+<6624 Uwagi na to zwróciła; Parys,
+>6629 Daj mi uścisnąć twą dłoń, o ty, jedną
+<6629 Daj mi uścisnąć twą dłoń, ty, w jedną
+>6632 W grobie? nie, młoda ofiaro, w grobie,
+>6633 W latarni raczej, bo Julia leży;
+>6634 A blask jej zmienia to sklepienie
+>6635 W przybytek światła. Spoczywaj w spokoju,
+<6632 W grobie? nie, młoda ofiaro, nie w grobie,
+<6633 latarni raczej, bo tu Julia leży;
+<6634 A blask jej wdzięków zmienia to sklepienie
+<6635 przybytek światła. Spoczywaj w spokoju,
+>6643 Coś podobnego u mnie się zdarza?
+>6644 Julio! kochanko moja! moja żono!
+>6645 Śmierć, co wyssała miód tchnienia,
+<6643 Coś podobnego i u mnie się zdarza?
+<6644 Julio! kochanko moja! moja
+<6645 Śmierć, co wyssała miód twojego tchnienia,
+>6648 Ten sztandar wdzięków, nie przestał powiewać
+<6648 sztandar wdzięków, nie przestał powiewać
+>6653 Jak że tą ręką, zabiła ciebie,
+<6653 Jak tą ręką, co zabiła ciebie,
+>6655 Przebacz mi, przebacz, Tybalcie! Ach,
+<6655 Przebacz mi, przebacz, Tybalcie! Ach, Julio!
+>6666 Otrząsnę jarzmo gwiazd zawistnych.
+>6667 Spojrzyjcie po raz ramiona,
+>6668 Po raz ostatni zegnijcie w uścisk!
+<6666 Otrząsnę jarzmo gwiazd zawistnych. Oczy,
+<6667 Spojrzyjcie po raz ostatni! ramiona,
+<6668 Po raz zegnijcie się w uścisk!
+>6679                          Walny aptekarzu!
+>6680 Płyn twój skutkuje: całując — umieram.
+<6679                          aptekarzu!
+<6680 skutkuje: całując — umieram.
+>6682 / umiera /
+<6682 umiera /
+>6689 Święty Franciszku, wspieraj mię! Jak często
+<6689 Święty Franciszku, wspieraj mię! Jak
+>6691 O głazy potrącały! Kto tu?
+<6691 O głazy grobów potrącały! Kto tu?
+>6704 Nie tlejeż ona w grobach Kapuletów?
+<6704 tlejeż ona w grobach Kapuletów?
+>6720                          Romeo.
+<6720 Romeo.
+>6735 Pójdź ze bracie, do tych sklepień.
+<6735 Pójdź ze mną, bracie, do tych sklepień.
+>6741 Bo mi pan kazał i straszliwie
+>6742 Zagroził śmiercią, tu zostanę
+>6743 kroki jego ważę się podglądać.
+<6741 Bo mi pan kazał odejść straszliwie
+<6742 Zagroził śmiercią, jeśli tu zostanę
+<6743 I kroki jego ważę się podglądać.
+>6756 I że pokonał tamtego.
+<6756 że pokonał tamtego.
+>6765 Kamienne wnijście do tego grobowca?
+>6766 Czyjeż to miecze samopas
+>6767 Leżą u tego siedliska pokoju?
+<6765 Kamienne wnijście tego grobowca?
+<6766 Czyjeż to miecze samopas rzucone
+<6767 Leżą tego siedliska pokoju?
+>6772 I krwią zalany? Ach! cóż za fatalność
+<6772 I krwią zalany? cóż za fatalność
+>6779 / budząc się i podnosząc /
+<6779 / budząc się i podnosząc
+>6783 I tam też jestem; lecz gdzie Romeo?
+<6783 I tam też jestem; lecz gdzie mój Romeo?
+>6785 / Hałas za sceną.
+<6785 / Hałas za sceną. /
+>6790 Cóż to hałas? Julio, wyjdźmy z tego
+>6791 Mieszkania śmierci, i zniszczenia.
+>6792 Potęga, której nikt z nas się nie
+<6790 Cóż to za hałas? Julio, wyjdźmy z tego
+<6791 Mieszkania śmierci, zgrozy i zniszczenia.
+<6792 Potęga, której nikt z nas się nie oprze,
+>6797 Nie zwłócz, nie pytaj, bo warta
+<6797 Nie zwłócz, nie pytaj, bo warta nadchodzi.
+>6809 Idź Bogiem, starcze; idź, ja tu zostanę.
+>6810 Cóż to jest? Czara w zaciśniętej dłoni
+>6811 Mego Truciznę więc zażył!
+<6809 Idź z Bogiem, starcze; idź, ja tu zostanę.
+<6810 Cóż to w zaciśniętej dłoni
+<6811 Mego kochanka? Truciznę więc zażył!
+>6832 Idą, czas
+<6832 Idą, czas kończyć.
+>6836                          Zbawczy puginale!
+>6837 Tu twoje miejsce.
+<6836                          puginale!
+<6837 Tu miejsce.
+>6843 Pada na ciało Romea i umiera. Wchodzi warta z Paziem Parysa. /
+<6843 / Pada na ciało Romea i umiera. Wchodzi warta z Paziem Parysa. /
+>6858 Smutny tu hrabia zabity,
+>6859 Tu Julia we krwi pływa, jeszcze ciepła,
+<6858 Smutny widoku! tu hrabia zabity,
+<6859 Tu Julia krwi pływa, jeszcze ciepła,
+>6861 Dniami tym grobie była pochowana.
+<6861 Dniami w tym grobie była pochowana.
+>6875 PIERWSZY WARTOWNIK
+<6875 WARTOWNIK
+>6877 Oto sługa, znaleźliśmy
+>6878 Go na cmentarzu.
+<6877 Oto Romea sługa, znaleźliśmy
+<6878 Go na
+>6884 Dopóki książę nie nadejdzie.
+<6884 Dopóki książę nadejdzie.
+>6892 Odebraliśmy ten drąg i rydel,
+>6893 Kiedy się bokiem cmentarza wykradał.
+<6892 Odebraliśmy mu ten drąg i rydel,
+<6893 Kiedy się cmentarza wykradał.
+>6905 / Wchodzi Kapulet, Pani Kapulet i inne osoby. /
+<6905 / Kapulet, Pani Kapulet i inne osoby. /
+>6917 Tłumnie tu dążą do naszego grobu.
+<6917 Tłumnie tu dążą do naszego
+>6922 Cóż to za postrach rozruch ten
+<6922 Cóż to za postrach rozruch ten sprowadza?!
+>6930 Romeo martwy i Julia, wprzód zmarła,
+<6930 Romeo martwy i Julia, wprzód
+>6952 Zamiast w nią trafić, trafił w pierś mej córki.
+<6952 Zamiast w nią trafić, trafił w pierś córki.
+>6958 Ostrzega starość mą o zgonu.
+<6958 Ostrzega starość mą o chwili zgonu.
+>6984 Jak się ważyłeś w grób uprzedzić ojca?
+<6984 ważyłeś w grób uprzedzić ojca?
+>6989 Zamknijcie usta żalowi na chwilę,
+>6990 Póki zagadki tej nie
+<6989 Zamknijcie usta żalowi na
+<6990 Póki zagadki tej nie rozwiążemy
+>6995 I niech ulegnie zły los
+<6995 I niech ulegnie zły los cierpliwości.
+>7001 Ja to, o panie! lubo najmniej zdolny
+>7002 Do popełnienia czegoś
+<7001 Ja to, o lubo najmniej zdolny
+<7002 Do popełnienia czegoś podobnego,
+>7007 I jako własny obrońca w tej
+<7007 jako własny obrońca w tej sprawie,
+>7013 Mów, czegoś świadom.
+<7013 Mów, czegoś
+>7018                          Zwięźle rzecz opowiem.
+<7018 Zwięźle opowiem.
+>7020 długa powieść. Romeo, którego
+<7020 Niż długa powieść. Romeo, którego
+>7024 Ich połączenia był dzień nieszczęsnej
+<7024 Ich połączenia był ów dzień nieszczęsnej
+>7026 Wygnała z miasta; i ten to był powód
+>7027 Cierpienia Julii, nie żal po Tybalcie.
+<7026 z miasta; i ten to był powód
+<7027 Cierpienia Julii, żal po Tybalcie.
+>7031 Wy, chcąc oddalić od niej chmury smutku,
+<7031 Wy, chcąc oddalić od chmury smutku,
+>7036 O doradzenie jej jakiego
+<7036 O doradzenie jej jakiego środka,
+>7038 Mógł ją uwolnić; w przeciwnym zaś razie
+<7038 Mógł uwolnić; w przeciwnym zaś razie
+>7040 Dałem jej tedy, w mojej sztuce,
+>7041 krople, których skutek
+<7040 Dałem jej tedy, ufny w mojej sztuce,
+<7041 Usypiające krople, których skutek
+>7047 Zszedł się tu ze mną wyswobodzenia
+>7048 Tej, co mu dała taki dowód wiary,
+>7049 tymczasowego jej grobu. Traf zrządził,
+>7050 Że brat Jan, który listem był wysłany,
+<7047 Zszedł się tu ze mną dla
+<7048 co mu dała taki dowód wiary,
+<7049 Z tymczasowego jej grobu. Traf zrządził,
+<7050 Że brat Jan, który z listem był wysłany,
+>7056 Póki Romeo nie przybędzie; ale
+<7056 Póki nie przybędzie;
+>7059 Leżał bez duszy i Romeo także.
+>7060 Ona budzi, jam się jął przekładać,
+<7059 Leżał bez duszy i także.
+<7060 Ona się budzi, jam się jął przekładać,
+>7062 przyjęła z korną uległością,
+<7062 Nieba przyjęła z korną uległością,
+>7067 Oto jest wszystko, co małżeństwie
+>7068 Marta zaświadczy. Jeśli to nieszczęście
+<7067 Oto jest wszystko, co wiem; o małżeństwie
+<7068 zaświadczy. Jeśli to nieszczęście
+>7071 kilka godzin przed bliskim już kresem,
+<7071 Na kilka godzin przed bliskim już kresem,
+>7084 Wraz on pocztę i z Mantui przybył
+>7085 Prosto w miejsce, do tego grobowca.
+<7084 Wraz on wziął pocztę i z Mantui przybył
+<7085 Prosto w to miejsce, do tego grobowca.
+>7087 I w wstępując zagroził mi śmiercią,
+<7087 I w grób wstępując zagroził mi śmiercią,
+>7094 paź hrabiego, co wartę
+<7094 Gdzie paź hrabiego, co wartę sprowadził?
+>7102 Wtem ktoś ze światłem przyszedł otwierać
+<7102 Wtem ktoś ze światłem przyszedł grób otwierać
+>7111 Biedny młodzieniec pisze oprócz tego,
+<7111 młodzieniec pisze oprócz tego,
+>7115 Rzecz jasna! Gdzie są nieprzyjaciele?
+<7115 Rzecz jasna! Gdzie są ci nieprzyjaciele?
+>7117 spotyka wasze nienawiści,
+<7117 Chłosta spotyka wasze nienawiści,
+>7119 Zabicia pociech żywota;
+<7119 Zabicia pociech waszego żywota;
+>7121 niesnaskom straciłem dwóch krewnych.
+>7122 Wszyscy jesteśmy ukarani.
+<7121 Waszym niesnaskom straciłem dwóch krewnych.
+<7122 jesteśmy ukarani.
+>7129 nie mogę żądać.
+<7129 Więcej nie mogę żądać.
+>7136 Posąg jej ulać ze szczerego złota,
+<7136 Posąg ulać ze szczerego złota,
+>7153 Jak ta historia Romea i Julii
+<7153 Jak ta historia Romea i
+>7162 Wersja lektury w opracowaniu merytorycznym i krytycznym (przypisy i motywy) dostępna na stronie http://wolnelektury.pl/katalog/lektura/romeo-i-julia.
+<7162 Wersja lektury w opracowaniu merytorycznym i krytycznym (przypisy i motywy) dostępna jest na stronie http://wolnelektury.pl/katalog/lektura/romeo-i-julia.
+>7166 Ten utwór nie jest objęty majątkowym prawem autorskim i znajduje się w domenie publicznej, co oznacza że możesz wykorzystywać, publikować i rozpowszechniać. Jeśli utwór opatrzony jest dodatkowymi materiałami (przypisy, motywy literackie etc.), które podlegają prawu autorskiemu, to te materiały udostępnione są na licencji Creative Commons Uznanie Autorstwa – Na Tych Samych Warunkach 3.0 PL (http://creativecommons.org/licenses/by-sa/3.0/).
+<7166 Ten utwór nie jest objęty majątkowym prawem autorskim i znajduje się w domenie publicznej, co oznacza że go swobodnie wykorzystywać, publikować i rozpowszechniać. Jeśli utwór opatrzony jest dodatkowymi materiałami (przypisy, motywy literackie etc.), które podlegają prawu autorskiemu, to te dodatkowe materiały udostępnione są na licencji Creative Commons Uznanie Autorstwa – Na Tych Samych Warunkach 3.0 (http://creativecommons.org/licenses/by-sa/3.0/).
+>7172 Publikacja zrealizowana w ramach projektu Wolne (http://wolnelektury.pl). Reprodukcja cyfrowa wykonana przez Bibliotekę Narodową z egzemplarza pochodzącego ze zbiorów BN.
+<7172 Publikacja zrealizowana w projektu Wolne Lektury (http://wolnelektury.pl). Reprodukcja cyfrowa wykonana przez Bibliotekę Narodową z egzemplarza pochodzącego ze zbiorów BN.
