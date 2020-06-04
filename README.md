@@ -13,3 +13,5 @@
  - adaptive Huffman coding (Vitter algorithm);
 #### lab4 - edit distance and lcs (longest common substring)
 #### lab5 - two-dimensional string matching
+#### lab6 - dictionary of basic factors
+ - KMR algorithm
