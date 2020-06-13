@@ -15,3 +15,4 @@
 #### lab5 - two-dimensional string matching
 #### lab6 - dictionary of basic factors
  - KMR algorithm
+#### lab7 - regular expression matching
